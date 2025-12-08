@@ -1,0 +1,98 @@
+{
+  "name": {
+    "full": "ai{DEAL} Studio",
+    "subtitle": {
+      "zh": "人机交互课题组",
+      "en": "Human-Computer Interaction Lab"
+    }
+  },
+  "description": {
+    "zh": "我们设计、原型制作和研究智能交互系统，用于真实场景中辅助和增强学习、教育、儿童及其家庭，以及弱势群体。",
+    "en": "We design, prototype, and study intelligent, interactive systems for real-world settings to assist and augment learning, education, children and their families, and underprivileged groups."
+  },
+  "contact": {
+    "email": "anpc@sustech.edu.cn",
+    "address": {
+      "en": {
+        "institution": "SUSTech School of Design",
+        "street": "1088 Xueyuan Blvd, Nanshan",
+        "city": "Shenzhen, Guangdong Province, China",
+        "zip": "518055"
+      },
+      "zh": {
+        "institution": "南方科技大学创新创意设计学院",
+        "street": "学苑大道1088号",
+        "city": "广东省深圳市南山区",
+        "zip": "518055"
+      }
+    },
+    "phone": "0086-755-88012847",
+    "xiaohongshu": {
+      "name": "ai{DEAL} Studio",
+      "id": "1543751028",
+      "url": "https://www.xiaohongshu.com/user/profile/62b359f5000000001b024c66"
+    }
+  },
+  "socialLinks": {
+    "googleScholar": "https://scholar.google.com/citations?user=8NN-2uYAAAAJ&hl/",
+    "orcid": "https://orcid.org/0000-0002-7705-2031",
+    "dblp": "https://dblp.org/pid/203/0360.html",
+    "researchGate": "https://www.researchgate.net/profile/Pengcheng-An/research/",
+    "twitter": "https://twitter.com/PengchengAn",
+    "linkedin": "https://www.linkedin.com/in/pengcheng-an-0b537a129",
+    "facebook": "https://www.facebook.com/88anpengcheng88/photos",
+    "youtube": "https://youtube.com/playlist?list=PLmP94R-FoTfPACghlBnAeLJCNiWIm6RSZ"
+  },
+  "opportunities": [
+    {
+      "title": "Postdoctoral Researcher",
+      "link": "https://mp.weixin.qq.com/s/pj679TeqcwGwoupJ3uEDGA?from=singlemessage&isappinstalled=0&scene=1&clicktime=1710571906&enterid=1710571906"
+    },
+    {
+      "title": "SUSTech International PhD",
+      "description": "non-Chinese nationals acquiring a PhD at SUSTech",
+      "link": "https://fellow.sustech.edu.cn/#/fellowship/enHome"
+    },
+    {
+      "title": "SUSTech Fellowship",
+      "description": "visiting PhD students from universities outside Mainland China",
+      "link": "https://gs.sustech.edu.cn/#/admission/en/cooperation"
+    },
+    {
+      "title": "Remote/In-person Visiting Students",
+      "description": "flexible opportunities always open",
+      "link": null
+    }
+  ],
+  "news": [
+    {
+      "type": "paper",
+      "title": "Paper accepted!",
+      "venue": "INTERNATIONAL JOURNAL OF DESIGN (SCI, SSCI, A&HCI indexed)",
+      "paperTitle": "Unremarkable Augmentation in Busy Practitioners' Surroundings: Exploring Peripheral Interaction with Teachers and Nurses",
+      "authors": "P. An, S. Bakker, M. Cabral Guerra, J. van Bentum, B. Eggen"
+    },
+    {
+      "type": "paper",
+      "title": "Paper accepted!",
+      "venue": "ACM UbiComp 2023 / IMWUT (CCF-A)",
+      "paperTitle": "Eggly: Designing Mobile Augmented Reality Neurofeedback Training Games for Children with Autism Spectrum Disorder",
+      "authors": "Yue Lyu, Pengcheng An, Yage Xiao, Zibo Zhang, Huan Zhang, Keiko Katsuragawa, Jian Zhao"
+    },
+    {
+      "type": "paper",
+      "title": "Paper accepted!",
+      "venue": "ACM DIS 2023 (CCF-C)",
+      "paperTitle": "Co-constructing Stories Based on Users Lived Experiences to Investigate Visualization Design for Collective Stress Management",
+      "authors": "Mengru Xue, Pengcheng An, Rong-Hao Liang, Zengrong Guo, Jun Hu, Preben Hansen, Loe Feijs"
+    }
+  ],
+  "navigation": [
+    { "name": { "zh": "主页", "en": "Home" }, "path": "/" },
+    { "name": { "zh": "研究团队", "en": "Team" }, "path": "/team" },
+    { "name": { "zh": "研究项目", "en": "Projects" }, "path": "/projects" },
+    { "name": { "zh": "学术发表", "en": "Publications" }, "path": "/publications" },
+    { "name": { "zh": "加入我们", "en": "Opportunities" }, "path": "/opportunities" }
+  ]
+}
+

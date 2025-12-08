@@ -1,0 +1,222 @@
+{
+  "publications": [
+    {
+      "year": 2024,
+      "items": [
+        {
+          "authors": "Di Liu, Hanqing Zhou, and Pengcheng An",
+          "title": "\"When He Feels Cold, He Goes to the Seahorse\"–Blending Generative AI into Multimaterial Storymaking for Family Expressive Arts Therapy",
+          "venue": "CHI Conference on Human Factors in Computing Systems (CHI '24). Association for Computing Machinery, New York, NY, USA",
+          "link": "https://arxiv.org/abs/2402.06472"
+        },
+        {
+          "authors": "Pengcheng An, Jiawen Stefanie Zhu, Zibo Zhang, Yifei Yin, Qingyuan Ma, Che Yan, Linghao Du, and Jian Zhao",
+          "title": "EmoWear: Exploring Emotional Teasers for Voice Message Interaction on Smartwatches",
+          "venue": "CHI Conference on Human Factors in Computing Systems (CHI '24). Association for Computing Machinery, New York, NY, USA",
+          "link": "https://arxiv.org/abs/2402.07174"
+        },
+        {
+          "authors": "Du, Xuejun, Pengcheng An, Justin Leung, April Li, Linda E. Chapman, and Jian Zhao",
+          "title": "DeepThInk: Designing and probing human-AI co-creation in digital art therapy",
+          "venue": "International Journal of Human-Computer Studies 181 (2024)",
+          "link": "https://doi.org/10.1016/j.ijhcs.2023.103139"
+        },
+        {
+          "authors": "Ning Zhang, Bin Yu, Jun Hu, Min Li, Pengcheng An",
+          "title": "I'm not upset–I get it: Effects of co-workers' stress cues on help-seekers' social diction and empathy in telecommuting",
+          "venue": "International Journal of Human-Computer Studies 185 (2024)",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1071581924000028"
+        },
+        {
+          "authors": "Hanqing Zhou, Anastasia Nikolova, Pengcheng An",
+          "title": "\"My lollipop dropped…\"-Probing Design Opportunities for SEL Agents through Children's Peer Co-Creation of Social-Emotional Stories",
+          "venue": "Extended Abstract of the CHI Conference on Human Factors in Computing Systems (CHI EA '24). Association for Computing Machinery, New York, NY, USA",
+          "link": "https://arxiv.org/abs/2403.03618"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "items": [
+        {
+          "authors": "An, P., Bakker, S., Cabral Guerra, M., van Bentum, J., & Eggen, B.",
+          "title": "Unremarkable Augmentation in Busy Practitioners' Surrounding: Exploring Peripheral Interaction with Teachers and Nurses",
+          "venue": "International Journal of Design [Online] 17:1",
+          "link": "http://www.ijdesign.org/index.php/IJDesign/article/view/4265"
+        },
+        {
+          "authors": "Yue Lyu, Pengcheng An, Yage Xiao, Zibo Zhang, Huan Zhang, Keiko Katsuragawa, and Jian Zhao",
+          "title": "Eggly: Designing Mobile Augmented Reality Neurofeedback Training Games for Children with Autism Spectrum Disorder",
+          "venue": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 7, 2, Article 67 (June 2023), 29 pages",
+          "link": "https://doi.org/10.1145/3596251"
+        },
+        {
+          "authors": "Mengru Xue, Pengcheng An, Rong-Hao Liang, Zengrong Guo, Jun Hu, Preben Hansen, and Loe Feijs",
+          "title": "Co-constructing Stories Based on Users Lived Experiences to Investigate Visualization Design for Collective Stress Management",
+          "venue": "Proceedings of the 2023 ACM Designing Interactive Systems Conference (DIS '23). Association for Computing Machinery, New York, NY, USA, 652–663",
+          "link": "https://doi.org/10.1145/3563657.3596118"
+        },
+        {
+          "authors": "Pengcheng An, Chaoyu Zhang, Haichen Gao, Ziqi Zhou, Linghao Du, Che Yan, Yage Xiao, and Jian Zhao",
+          "title": "Affective Affordance of Message Balloon Animations: An Early Exploration of AniBalloons",
+          "venue": "Companion Publication of the 2023 Conference on Computer Supported Cooperative Work and Social Computing (CSCW '23 Companion). Association for Computing Machinery, New York, NY, USA, 138–143",
+          "link": "https://doi.org/10.1145/3584931.3607017"
+        },
+        {
+          "authors": "Jiang, G., Zhu, J., Li, Y. et al.",
+          "title": "NaMemo2: Facilitating Teacher-Student Interaction with Theory-Based Design and Student Autonomy Consideration",
+          "venue": "Educ Inf Technol (2023)",
+          "link": "https://doi.org/10.1007/s10639-023-12059-y"
+        },
+        {
+          "authors": "Sark Pangrui Xing, Bart Van Dijk, Pengcheng An, Miguel Bruns, Yaliang Chuang, and Stephen Jia Wang",
+          "title": "Puffy: A Step-by-step Guide to Craft Bio-inspired Artifacts with Interactive Materiality",
+          "venue": "Proceedings of the Seventeenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '23). Association for Computing Machinery, New York, NY, USA, Article 29, 1–14",
+          "link": "https://doi.org/10.1145/3569009.3572800"
+        },
+        {
+          "authors": "Chao Wang, Joerg Deigmoeller, Pengcheng An, and Julian Eggert",
+          "title": "A User Interface for Sense-making of the Reasoning Process while Interacting with Robots",
+          "venue": "Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems (CHI EA '23). Association for Computing Machinery, New York, NY, USA, Article 16, 1–7",
+          "link": "https://doi.org/10.1145/3544549.3585886"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "items": [
+        {
+          "authors": "Pengcheng An, Ziqi Zhou, Qing Liu, Yifei Yin, Linghao Du, Da-Yuan Huang, and Jian Zhao",
+          "title": "VibEmoji: Exploring User-authoring Multi-modal Emoticons in Social Communication",
+          "venue": "CHI Conference on Human Factors in Computing Systems (CHI '22). Association for Computing Machinery, New York, NY, USA, Article 493, 1–17",
+          "link": "https://doi.org/10.1145/3491102.3501940"
+        },
+        {
+          "authors": "Gloria Fernandez-Nieto, Pengcheng An, Jian Zhao, Simon Buckingham Shum, and Roberto Martinez-Maldonado",
+          "title": "Classroom Dandelions: Visualising Participant Position, Trajectory and Body Orientation Augments Teachers' Sensemaking",
+          "venue": "CHI Conference on Human Factors in Computing Systems (CHI '22). Association for Computing Machinery, New York, NY, USA, Article 564, 1–17",
+          "link": "https://doi.org/10.1145/3491102.3517736"
+        },
+        {
+          "authors": "Feiran Zhang, Panos Markopoulos, Pengcheng An, Martine Schüll",
+          "title": "Social sharing of task-related emotions in Design-Based Learning: Challenges and opportunities",
+          "venue": "International Journal of Child-Computer Interaction, Volume 31, 2022, 100378, ISSN 2212-8689",
+          "link": "https://doi.org/10.1016/j.ijcci.2021.100378"
+        },
+        {
+          "authors": "Sangho Suh and Pengcheng An",
+          "title": "Leveraging Generative Conversational AI to Develop a Creative Learning Environment for Computational Thinking",
+          "venue": "27th International Conference on Intelligent User Interfaces (IUI '22 Companion). Association for Computing Machinery, New York, NY, USA, 73–76",
+          "link": "https://doi.org/10.1145/3490100.3516473"
+        },
+        {
+          "authors": "Wu, Yiying, Yunye Yu, and Pengcheng An",
+          "title": "Dancing with the Unexpected and Beyond: The Use of AI Assistance in Design Fiction Creation",
+          "venue": "arXiv preprint arXiv:2210.00829 (2022)",
+          "link": "https://arxiv.org/abs/2210.00829"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "items": [
+        {
+          "authors": "Bin Yu, Pengcheng An, Sjoerd Hendriks, Ning Zhang, Loe Feijs, Min Li & Jun Hu",
+          "title": "ViBreathe: Heart Rate Variability Enhanced Respiration Training for Workaday Stress Management via an Eyes-Free Tangible Interface",
+          "venue": "International Journal of Human–Computer Interaction, 37:16, 1551-1570",
+          "link": "https://doi.org/10.1080/10447318.2021.1898827"
+        },
+        {
+          "authors": "Qiu, S., An, P., Kang, K. et al.",
+          "title": "Investigating socially assistive systems from system design and evaluation: a systematic review",
+          "venue": "Univ Access Inf Soc (2021)",
+          "link": "https://doi.org/10.1007/s10209-021-00852-w"
+        },
+        {
+          "authors": "D. Zhou, E. I. Barakova, P. An and M. Rauterberg",
+          "title": "Assistant Robot Enhances the Perceived Communication Quality of People With Dementia: A Proof of Concept",
+          "venue": "IEEE Transactions on Human-Machine Systems, vol. 52, no. 3, pp. 332-342, June 2022",
+          "link": "https://doi.org/10.1109/THMS.2021.3112957"
+        },
+        {
+          "authors": "Gloria Fernandez-Nieto, Roberto Martinez-Maldonado, Vanessa Echeverria, Kirsty Kitto, Pengcheng An, and Simon Buckingham Shum",
+          "title": "What Can Analytics for Teamwork Proxemics Reveal About Positioning Dynamics In Clinical Simulations?",
+          "venue": "Proc. ACM Hum.-Comput. Interact. 5, CSCW1, Article 185 (April 2021), 24 pages",
+          "link": "https://doi.org/10.1145/3449284"
+        },
+        {
+          "authors": "An, P.; Van Leeuwen, A.",
+          "title": "Light Bulb Moments in the Classroom: Probing Design Opportunities for Ambient LA Displays in Higher Education",
+          "venue": "7th International Conference on Higher Education Advances (HEAd'21). Editorial Universitat Politècnica de València. 215-223",
+          "link": "https://doi.org/10.4995/HEAd21.2021.12807"
+        },
+        {
+          "authors": "Zhaoyi Yang, Pengcheng An, Jinchen Yang, Samuel Strojny, Zihui Zhang, Dongsheng Sun, and Jian Zhao",
+          "title": "Designing Mobile EEG Neurofeedback Games for Children with Autism",
+          "venue": "Adjunct Publication of the 23rd International Conference on Mobile Human-Computer Interaction. Association for Computing Machinery, New York, NY, USA, Article 23, 1–6",
+          "link": "https://doi.org/10.1145/3447527.3477522"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "items": [
+        {
+          "authors": "Pengcheng An, Kenneth Holstein, Bernice d'Anjou, Berry Eggen, and Saskia Bakker",
+          "title": "The TA Framework: Designing Real-time Teaching Augmentation for K-12 Classrooms",
+          "venue": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1–17",
+          "link": "https://doi.org/10.1145/3313831.3376277"
+        },
+        {
+          "authors": "Nine Sellier and Pengcheng An",
+          "title": "How Peripheral Interactive Systems Can Support Teachers with Differentiated Instruction: Using FireFlies as a Probe",
+          "venue": "Proceedings of the 2020 ACM Designing Interactive Systems Conference. Association for Computing Machinery, New York, NY, USA, 1117–1129",
+          "link": "https://doi.org/10.1145/3357236.3395497"
+        },
+        {
+          "authors": "Pengcheng An, Saskia Bakker, Sara Ordanovski, Chris L.E. Paffen, Ruurd Taconis, and Berry Eggen",
+          "title": "Dandelion Diagram: Aggregating Positioning and Orientation Data in the Visualization of Classroom Proxemics",
+          "venue": "Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA '20). Association for Computing Machinery, New York, NY, USA, 1–8",
+          "link": "https://doi.org/10.1145/3334480.3382795"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "items": [
+        {
+          "authors": "Pengcheng An, Saskia Bakker, Sara Ordanovski, Ruurd Taconis, Chris L.E. Paffen, and Berry Eggen",
+          "title": "Unobtrusively Enhancing Reflection-in-Action of Teachers through Spatially Distributed Ambient Information",
+          "venue": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI '19). Association for Computing Machinery, New York, NY, USA, Paper 91, 1–14",
+          "link": "https://doi.org/10.1145/3290605.3300321",
+          "award": "Best Paper Honorable Mention Award"
+        },
+        {
+          "authors": "Miguel Cabral Guerra, Deedee Kommers, Saskia Bakker, Pengcheng An, Carola van Pul, and Peter Andriessen",
+          "title": "Beepless: Using Peripheral Interaction in an Intensive Care Setting",
+          "venue": "Proceedings of the 2019 on Designing Interactive Systems Conference (DIS '19). Association for Computing Machinery, New York, NY, USA, 607–620",
+          "link": "https://doi.org/10.1145/3322276.3323696"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "items": [
+        {
+          "authors": "An, P., Bakker, S., Eggen, B.",
+          "title": "FeetForward: On Blending New Classroom Technologies into Secondary School Teachers' Routines",
+          "venue": "Human-Computer Interaction - INTERACT 2017. Lecture Notes in Computer Science, vol 10514. Springer, Cham",
+          "link": "https://doi.org/10.1007/978-3-319-67684-5_20",
+          "award": "Reviewer's Choice Award"
+        },
+        {
+          "authors": "An, P., Bakker, S. & Eggen, B.",
+          "title": "Understanding teachers' routines to inform classroom technology design",
+          "venue": "Educ Inf Technol 22, 1347–1376 (2017)",
+          "link": "https://doi.org/10.1007/s10639-016-9494-9"
+        }
+      ]
+    }
+  ]
+}
+
