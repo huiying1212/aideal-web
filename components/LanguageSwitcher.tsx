@@ -6,24 +6,23 @@ export default function LanguageSwitcher() {
   const { lang, setLang } = useLanguage()
 
   return (
-    <div className="flex items-center gap-1 text-sm">
+    <div className="flex items-center p-0.5 bg-zinc-100 rounded-full">
       <button
         onClick={() => setLang('zh')}
-        className={`px-2 py-1 rounded transition-colors ${
+        className={`px-3 py-1.5 text-xs font-medium rounded-full transition-all duration-300 ${
           lang === 'zh'
-            ? 'bg-gray-900 text-white'
-            : 'text-gray-500 hover:text-gray-900'
+            ? 'bg-white text-zinc-900 shadow-sm'
+            : 'text-zinc-500 hover:text-zinc-700'
         }`}
       >
         中
       </button>
-      <span className="text-gray-300">/</span>
       <button
         onClick={() => setLang('en')}
-        className={`px-2 py-1 rounded transition-colors ${
+        className={`px-3 py-1.5 text-xs font-medium rounded-full transition-all duration-300 ${
           lang === 'en'
-            ? 'bg-gray-900 text-white'
-            : 'text-gray-500 hover:text-gray-900'
+            ? 'bg-white text-zinc-900 shadow-sm'
+            : 'text-zinc-500 hover:text-zinc-700'
         }`}
       >
         EN
@@ -31,4 +30,3 @@ export default function LanguageSwitcher() {
     </div>
   )
 }
-
