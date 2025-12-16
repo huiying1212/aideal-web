@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useLanguage } from '@/contexts/LanguageContext'
 import teamData from '@/data/team.json'
 
@@ -24,12 +25,16 @@ export default function TeamPage() {
         <h2 className="text-xs font-medium text-zinc-400 uppercase tracking-wider mb-8">
           {t('课题组负责人', 'Principal Investigator')}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-10 p-8 md:p-10 bg-zinc-50 rounded-3xl">
+        <div className="grid grid-cols-1 md:grid-cols-[260px_1fr] gap-10 p-8 md:p-10 bg-zinc-50 rounded-3xl">
           <div>
-            <div className="w-40 h-40 bg-gradient-to-br from-zinc-200 to-zinc-300 rounded-2xl flex items-center justify-center">
-              <svg className="w-16 h-16 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={0.75} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
+            <div className="w-56 h-56 bg-white rounded-3xl overflow-hidden flex items-center justify-center shadow-sm">
+              <Image
+                src={principalInvestigator.image}
+                alt={lang === 'zh' ? principalInvestigator.name.zh : principalInvestigator.name.en}
+                width={224}
+                height={224}
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
           <div>
@@ -101,10 +106,24 @@ export default function TeamPage() {
               className="group p-6 border border-zinc-100 rounded-2xl hover:border-zinc-200 hover:shadow-sm transition-all duration-300 bg-white"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-zinc-100 to-zinc-200 rounded-xl flex items-center justify-center shrink-0">
-                  <span className="text-sm font-medium text-zinc-400">
-                    {(member.name.zh || member.name.en).charAt(0)}
-                  </span>
+                <div className="w-16 h-16 rounded-2xl overflow-hidden bg-white flex items-center justify-center shrink-0 shadow-sm">
+                  {member.image ? (
+                    <Image
+                      src={member.image}
+                      alt={
+                        lang === 'zh'
+                          ? (member.name.zh || member.name.en)
+                          : (member.name.en || member.name.zh)
+                      }
+                      width={64}
+                      height={64}
+                      className="w-full h-full object-contain"
+                    />
+                  ) : (
+                    <span className="text-sm font-medium text-zinc-400">
+                      {(member.name.zh || member.name.en).charAt(0)}
+                    </span>
+                  )}
                 </div>
                 <div className="min-w-0">
                   <h3 className="text-sm font-medium text-zinc-900 truncate">
@@ -118,7 +137,7 @@ export default function TeamPage() {
                   </p>
                 </div>
               </div>
-              <p className="text-sm text-zinc-500 leading-relaxed line-clamp-3">
+              <p className="text-sm text-zinc-500 leading-relaxed">
                 {lang === 'zh' 
                   ? (member.bio.zh || member.bio.en)
                   : (member.bio.en || member.bio.zh)

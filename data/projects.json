@@ -11,7 +11,7 @@
         "short": "Despite the digital revolution, physical space remains the site for teaching and learning embodied knowledge and skills. Both teachers and students must develop spatial competencies to effectively use classroom spaces.",
         "full": "Despite the digital revolution, physical space remains the site for teaching and learning embodied knowledge and skills. Both teachers and students must develop spatial competencies to effectively use classroom spaces, enabling fluid verbal and non-verbal interaction. While video permits rich activity capture, it provides no support for quickly seeing activity patterns that can assist learning. In contrast, position tracking systems permit the automated modelling of spatial behaviour, opening new possibilities for feedback."
       },
-      "image": "/images/projects/dandelions.jpg",
+      "image": "/projects/banner_dandelions.png",
       "link": "https://doi.org/10.1145/3491102.3517736"
     },
     {
@@ -25,7 +25,7 @@
         "short": "Emoticons are indispensable in online communications. With users' growing needs for more customized and expressive emoticons, recent messaging applications begin to support multi-modal emoticons.",
         "full": "Emoticons are indispensable in online communications. With users' growing needs for more customized and expressive emoticons, recent messaging applications begin to support (limited) multi-modal emoticons, enhancing emoticons with animations or vibrotactile feedback. However, little empirical knowledge has been accumulated concerning how people create, share and experience multi-modal emoticons in everyday communication, and how to better support them through design."
       },
-      "image": "/images/projects/vibemoji.jpg",
+      "image": "/projects/banner_vibemoji.png",
       "link": "https://doi.org/10.1145/3491102.3501940"
     },
     {
@@ -39,7 +39,7 @@
         "short": "Almost all older people with dementia have progressive communication difficulties, which lead to increased social isolation and negative emotions.",
         "full": "Almost all older people with dementia have progressive communication difficulties, which lead to increased social isolation and negative emotions. Thus, providing communication assistance for them is essential. This paper explores the feasibility of using social robots to assist older people with dementia in their face-to-face communication with others. We designed the behavior of a humanoid Pepper robot and made a Wizard of Oz prototype that the robot can serve as a personal memory assistant."
       },
-      "image": "/images/projects/dementia-robot.jpg",
+      "image": "/projects/banner_robot.png",
       "link": "https://doi.org/10.1109/THMS.2021.3112957"
     },
     {
@@ -53,7 +53,7 @@
         "short": "Neurofeedback games are an effective and playful approach to enhance certain social and attentional capabilities in children with autism.",
         "full": "Neurofeedback games are an effective and playful approach to enhance certain social and attentional capabilities in children with autism, which are promising to become widely accessible along with the commercialization of mobile EEG modules. However, little industry-based experiences are shared, regarding how to better design neurofeedback games to fine-tune their playability and user experiences for autistic children."
       },
-      "image": "/images/projects/nft.jpg",
+      "image": "/projects/banner_NFT.png",
       "link": "https://doi.org/10.1145/3447527.3477522"
     },
     {
@@ -67,7 +67,7 @@
         "short": "Reflecting on their performance during classroom-teaching is an important competence for teachers. Such reflection-in-action (RiA) enables them to optimize teaching on the spot.",
         "full": "Reflecting on their performance during classroom-teaching is an important competence for teachers. Such reflection-in-action (RiA) enables them to optimize teaching on the spot. But RiA is also challenging, demanding extra thinking in teachers' already intensive routines. Little is known on how HCI systems can facilitate teachers' RiA during classroom-teaching. To fill in this gap, we evaluate ClassBeacons, a system that uses spatially distributed lamps to depict teachers' ongoing performance on how they have divided their time and attention over students in the classroom."
       },
-      "image": "/images/projects/classbeacons.jpg",
+      "image": "/projects/banner_classbeacons.png",
       "link": "https://doi.org/10.1145/3290605.3300321"
     }
   ]
