@@ -10,8 +10,8 @@
     },
     "image": "/images/team/pengcheng-an.jpg",
     "bio": {
-      "zh": "现任南方科技大学创新创意设计学院助理教授。作为人机交互与工业设计交叉领域的研究者，他的工作通过在真实场景中设计和搭建交互系统来探索人工智能、物联网等新兴技术对于学习、教育、家庭、以及特殊群体的意义。",
-      "en": "Assistant Professor at the School of Design, Southern University of Science and Technology. As a researcher at the intersection of Human-Computer Interaction and Industrial Design, his work explores the significance of emerging technologies such as AI and IoT for learning, education, families, and underprivileged groups through designing and building interactive systems in real-world settings."
+      "zh": "现任南方科技大学创新创意设计学院助理教授。作为人机交互与工业设计交叉领域的研究者，他的工作通过在真实场景中设计和搭建交互系统来探索人工智能、物联网等新兴技术对于学习、教育、家庭、以及特殊群体的意义。他在埃因霍温理工大学工业设计系获得博士学位，并完成了第一站博士后研究。此后，他加入了滑铁卢大学计算机学院，开展第二站博士后研究，并同时担任人机交互课程讲师。过去五年发表在相关领域的学术论文共计40余篇。其中，利用物联网交互技术探索智慧课堂空间信息显示的研究获得了人机交互领域顶会，美国计算机协会CHI大会颁发的“最佳论文提名奖”(第一作者)。为智能教室设计分布式交互界面的研究获得了国际信息处理联合会人机交互专项会议 INTERACT “评审选择奖”(第一作者)。他的设计研究产出的创新交互系统两次获邀参展荷兰设计周，并获媒体宣传。在滑铁卢工作期间参与华为加拿大人机交互实验室(HMI Lab)合作项目，创新多模态表情包在移动及可穿戴社交场景的应用，已申请国际专利。早年设计作品曾两度获得“红点设计奖：最佳奖”和“iF设计人才奖”。自2021年起连续担任美国计算机协会CHI大会 “学习、教育与家庭” 子方向评审委员会副主委 (Associate Chair)。主持国家自然科学基金青年项目与国家社科基金艺术学青年项目，探索智能教育技术与人智交互系统的交互创新与社会价值。此外，他也担任多个国际会议的组织者或审稿人，以及期刊的评审编辑。",
+      "en": "Pengcheng An is an Assistant Professor at the School of Design, Southern University of Science and Technology. As a researcher at the intersection of Human-Computer Interaction (HCI) and Industrial Design, he designs and builds interactive systems in real-world settings to explore how emerging technologies such as Artificial Intelligence and the Internet of Things can support learning, education, family life, and people with special needs. He received his Ph.D. and completed his first postdoctoral fellowship in the Department of Industrial Design at Eindhoven University of Technology. He then joined the Cheriton School of Computer Science at the University of Waterloo for his second postdoctoral position, where he also lectured in HCI. In the past five years, he has published more than 40 papers in related fields. His work on IoT-based interactive technologies for spatial information display in smart classrooms received an Honorable Mention Award (first author) at CHI, the premier conference in HCI organized by the ACM. His research on distributed interactive interfaces for smart classrooms received the IFIP INTERACT Best Paper Award (Reviewers’ Choice, first author). Several of his interactive systems have been exhibited twice at Dutch Design Week and covered by media outlets. While at Waterloo, he collaborated with Huawei Canada’s HMI Lab on a project exploring multimodal emojis for mobile and wearable social interactions, which has led to an international patent application. Earlier in his career, his design works twice received the Red Dot: Best of the Best and the iF Student Design Award. Since 2021, he has served continuously as an Associate Chair for the Learning, Education, and Families subcommittee of the ACM CHI conference. He is the Principal Investigator of projects funded by the National Natural Science Foundation of China (NSFC) and the National Social Science Fund of China (NSSFC), exploring interaction innovation and social value in intelligent educational technologies and human-intelligence interaction systems. He also serves as an organizer and reviewer for multiple international conferences and as a reviewer or editorial board member for academic journals."
     },
     "links": {
       "orcid": "https://orcid.org/0000-0002-7705-2031",
@@ -25,8 +25,8 @@
       "role": { "zh": "访问学生", "en": "Visiting Student" },
       "image": "/images/team/jingwen-bai.jpg",
       "bio": {
-        "zh": "南方科技大学创新创意设计学院访问学生。现在是北京大学计算机技术专业研究生。",
-        "en": "Visiting student at the School of Design, SUSTech. Currently a graduate student at Peking University."
+        "zh": "南方科技大学创新创意设计学院访问学生。现在是北京大学计算机技术专业研究生，将于2024年毕业。在此之前，分别在西北农林科技大学和北京大学获得生物技术学士学位和软件工程学士学位。我的兴趣在于人机交互（Human-centered Interaction）、可视化(Visualization)、游戏设计(Game Design)、学习研究(Learning Analytics)和人工智能的交叉领域，特别是研究、设计和构建系统/工具，以提高人(特别是残疾人)们在虚拟和物理空间中的能力、参与度和知识分享与学习。兴趣和爱好： 篮球、游戏（2008年开始玩DOTA）、做饭、单簧管（中学管弦乐队成员）、电影、游泳、乒乓球等等。",
+        "en": "Visiting student at the School of Design, Southern University of Science and Technology. He is currently a graduate student in Computer Technology at Peking University, expected to graduate in 2024. He previously obtained a Bachelor’s degree in Biotechnology from Northwest A&F University and a Bachelor’s degree in Software Engineering from Peking University. His research interests lie at the intersection of Human-centered Interaction, Visualization, Game Design, Learning Analytics, and Artificial Intelligence, with a particular focus on designing and building systems and tools that enhance people’s abilities, engagement, and knowledge sharing and learning in both virtual and physical spaces, especially for people with disabilities. Interests and hobbies include basketball, video games (playing DOTA since 2008), cooking, clarinet (former member of a school orchestra), movies, swimming, table tennis, and more."
       }
     },
     {
@@ -34,8 +34,8 @@
       "role": { "zh": "研究生", "en": "Graduate Student" },
       "image": "/images/team/duo-gong.jpg",
       "bio": {
-        "zh": "南方科技大学创新创意设计学院硕士生，研究方向为人机交互。",
-        "en": "Master student at the School of Design, SUSTech, focusing on Human-Computer Interaction."
+        "zh": "南方科技大学创新创意设计学院硕士生，研究方向为人机交互。2023年于中国石油大学（华东）大学机电工程学院以优秀毕业生身份取得工科学士。目前，在探索基于生成式人工智能（AIGC）以及大语言模型（LLM）技术，辅助未来设计师的设计教育以及赋能特需群体的美术教育与艺术疗愈等领域的内容；同时，我也会探索汽车造型设计，讨论汽车未来内外饰不同的可能性。兴趣爱好：旅游、听歌、发呆。",
+        "en": "Master’s student in the School of Design at Southern University of Science and Technology, focusing on Human-Computer Interaction. She graduated with a Bachelor’s degree in Engineering from the School of Mechanical and Electrical Engineering at China University of Petroleum (East China) in 2023 as an Outstanding Graduate. Her current work explores how generative AI (AIGC) and large language models (LLMs) can support design education for future designers, as well as empower special-needs groups through art education and art therapy. She is also interested in automotive styling design and in discussing new possibilities for future vehicle interiors and exteriors. In her spare time, she enjoys traveling, listening to music, and daydreaming."
       }
     },
     {
@@ -43,8 +43,8 @@
       "role": { "zh": "研究生", "en": "Graduate Student" },
       "image": "/images/team/kexin-huang.jpg",
       "bio": {
-        "zh": "南方科技大学创新创意设计学院23级硕士生，工业设计工程专业。",
-        "en": "Master student in Industrial Design Engineering at SUSTech, interested in HCI and Learning Analytics."
+        "zh": "南方科技大学创新创意设计学院23级硕士生，工业设计工程专业。2018年于南京邮电大学获得物流管理学士学位。我对人机交互（Human-centered Interaction）、学习分析（Learning Analytics）等方向很感兴趣。目前，我正在与课题组的小伙伴进行智慧教室这一项目的研究。我们希望为未来课堂而设计，正在探索大语言模型(Large Language Model)、计算机视觉等人工智能技术在教学过程/教室场景的应用和诸多可能性。在课余时间，我喜欢看书、看电影（特别是悬疑片！）以及跟朋友们聊天。",
+        "en": "Master’s student (Class of 2023) in Industrial Design Engineering at the School of Design, Southern University of Science and Technology. She obtained her Bachelor’s degree in Logistics Management from Nanjing University of Posts and Telecommunications in 2018. She is particularly interested in Human-centered Interaction and Learning Analytics. She is currently working with teammates in the group on a smart classroom project, designing for the classroom of the future and exploring how large language models and computer vision technologies can be applied in teaching processes and classroom settings. In her free time, she enjoys reading, watching movies (especially thrillers!), and chatting with friends."
       }
     },
     {
@@ -52,8 +52,8 @@
       "role": { "zh": "研究生", "en": "Graduate Student" },
       "image": "/images/team/jiaqi-jiang.jpg",
       "bio": {
-        "zh": "目前就读于南方科技大学创新创意设计学院智能制造与机器人专业，研究方向为人机交互。",
-        "en": "Graduate student at SUSTech, focusing on HCI and robotics."
+        "zh": "我的名字是姜嘉琪，2017年于北京科技大学获得自动化专业学士学位，目前就读于南方科技大学创新创意设计学院智能制造与机器人专业，研究方向为人机交互，热衷于探索人机交互领域的新可能。我正在进行的研究项目有两个：首先是一款基于身体互动的游戏化系统，旨在为在线会议场景提供更加有趣的互动方式，同时探索其对于人体健康方面的潜力。这个项目涉及到多个技术领域的整合，包括计算机视觉、人体运动追踪和数据分析等。其次，我也在研究如何通过多模态数据的可视化来促进课堂中教师的教学反思。通过整合不同来源的数据，我希望能够提供一种更加直观、全面的视角来帮助教师们更好地了解自己的教学方式，进而提高教学效果。",
+        "en": "My name is Jiaqi Jiang. I received my Bachelor’s degree in Automation from the University of Science and Technology Beijing in 2017, and I am currently a graduate student in Intelligent Manufacturing and Robotics at the School of Design, Southern University of Science and Technology. My research focuses on Human-Computer Interaction, and I am passionate about exploring new possibilities in this field. I am currently working on two main projects. The first is a body-based gamified interactive system that aims to create more engaging interactions in online meeting scenarios while also exploring its potential benefits for human health. This project integrates multiple technologies, including computer vision, human motion tracking, and data analytics. The second project investigates how the visualization of multimodal data can support teachers’ reflective practice in the classroom. By integrating data from different sources, I hope to provide more intuitive and comprehensive insights that help teachers better understand and improve their teaching."
       }
     },
     {
@@ -61,8 +61,8 @@
       "role": { "zh": "本科生", "en": "Undergraduate Student" },
       "image": "/images/team/xian-li.jpg",
       "bio": {
-        "zh": "南方科技大学创新创意设计学院大三学生，研究方向是人机交互。",
-        "en": "Third-year undergraduate at SUSTech, interested in HCI, accessibility design, and community design."
+        "zh": "南方科技大学创新创意设计学院大三学生，研究方向是人机交互，同时我对无障碍设计和社区设计也感兴趣，我认同设计的目的是为了更好地为人服务，无论通过技术还是其他媒介，因此我也乐于去尝试不同的方法与工具。目前正在做一项基于身体交互的游戏化系统，鼓励人们在在线会议的场景下展开更有趣的身体交互，喜欢去玩（在深圳找不到地方玩可以call我），喜欢听livehouse（各种风格都ok），喜欢做大开脑洞的研究（比如现在在做大学生如何使用AI工具的调研），喜欢与人交谈（对社会学研究很有兴趣，有兴趣一起聊聊项飙），喜欢玩Switch马里奥赛车8。未来研究生阶段想继续在人机交互领域探索，感觉很有趣很好玩。",
+        "en": "Third-year undergraduate student in the School of Design at Southern University of Science and Technology. My current research focuses on Human-Computer Interaction, and I am also interested in accessibility design and community design. I believe that the purpose of design is to better serve people, whether through technology or other media, so I enjoy trying different methods and tools. I am currently working on a body-based gamified interactive system that encourages more playful physical interaction during online meetings. I love going out to play (feel free to contact me if you can’t find a place to have fun in Shenzhen), listening to livehouse performances (all kinds of music are welcome), and doing bold, imaginative research (for example, I am now studying how university students use AI tools). I also enjoy talking with people and am very interested in sociological research (happy to chat about Xiang Biao’s work), and I like playing Mario Kart 8 on the Nintendo Switch. In the future, I hope to continue exploring the field of HCI in my graduate studies, because I find it both fascinating and fun."
       }
     },
     {
@@ -70,8 +70,8 @@
       "role": { "zh": "远程访问学生", "en": "Remote Visiting Student" },
       "image": "/images/team/yaoqi-li.jpg",
       "bio": {
-        "zh": "南方科技大学创新创意设计学院访问学生。现就读于佐治亚理工学院工业设计硕士项目。",
-        "en": "Visiting student at SUSTech, currently pursuing a Master at Georgia Tech."
+        "zh": "南方科技大学创新创意设计学院访问学生。本科毕业于天津大学工业设计专业，现就读于佐治亚理工学院工业设计硕士项目。目前正在探索自闭症儿童性教育领域的研究，探索更适合中国宝宝体质的自闭症性教育材料与技术。之后希望进一步关注和研究自闭症群体的生活与需求。日常的爱好跳舞，爬山，看电影和发呆",
+        "en": "Visiting student at the School of Design, Southern University of Science and Technology. She obtained her Bachelor’s degree in Industrial Design from Tianjin University and is currently pursuing a Master’s degree in Industrial Design at the Georgia Institute of Technology. Her current research focuses on sex education for children with autism, exploring educational materials and technologies that are better suited to the needs and context of Chinese children. In the future, she hopes to further study the everyday lives and needs of people on the autism spectrum. In her daily life, she enjoys dancing, hiking, watching movies, and daydreaming."
       }
     },
     {
@@ -79,8 +79,8 @@
       "role": { "zh": "博士生", "en": "Doctoral Student" },
       "image": "/images/team/di-liu.jpg",
       "bio": {
-        "zh": "南方科技大学创新创意设计学院博士生，专业是人机交互与人机共协。",
-        "en": "Doctoral student at SUSTech, focusing on AI-based art therapy and design for children with autism."
+        "zh": "刘迪，Andy，南方科技大学创新创意设计学院博士生，软件工程背景，专业是人机交互(Human-Computer Interaction)与人机共协（Human-Engaged Computing），目前研究兴趣就是基于人工智能(AI)的艺术疗愈研究，理解自闭症儿童群体行为以及为自闭症儿童群体设计的研究。此外，自己也会非常感兴趣CSCW/Social computing的研究，特别是研究用户在直播平台的行为（随缘的支线兴趣，即做梦梦到有趣的话题就尝试做）。男生（图片可以看出来），天蝎座（很高冷，真的），平时爱好就是卷（卷论文-.-），旅游（没钱），骑行（没车子），爬山（没伙伴），搞自媒体（设计相关）/公众号（心智提升），冥想。特长就是聊星座/星盘（宇宙尽头是玄学）。",
+        "en": "Di (Andy) Liu is a doctoral student in the School of Design at Southern University of Science and Technology. With a background in Software Engineering, he now specializes in Human-Computer Interaction (HCI) and Human-Engaged Computing. His current research interests center on AI-based art therapy, understanding the behaviors of children with autism, and designing for this group. He is also very interested in CSCW and social computing, especially in studying user behavior on live-streaming platforms (a side interest that he pursues whenever he dreams up an interesting topic). He is a Scorpio (and really quite aloof, as the stereotype goes). In his spare time, he enjoys “grinding” on papers, traveling (though often on a budget), cycling (without owning a bike), hiking (often lacking hiking buddies), creating design-related content on social media and WeChat public accounts (focused on personal growth), and meditating. He is also particularly good at talking about astrology and birth charts (because, after all, the ultimate destination of the universe might just be metaphysics)."
       }
     },
     {
@@ -89,7 +89,7 @@
       "image": "/images/team/anastasia-nikolova.jpg",
       "bio": {
         "zh": "",
-        "en": "Visiting student at the School of Design, Southern University of Science and Technology."
+        "en": "Visiting student at the School of Design, Southern University of Science and Technology. She is currently a fourth-year undergraduate student majoring in Data Science at Duke University and Duke Kunshan University and will graduate in 2024. Her interests lie at the intersection of Human-Computer Interaction and Artificial Intelligence with a focus on providing personalization in education and healthcare to facilitate the learning process of adults and enhance the socio-emotional wellbeing of children. Interests and hobbies: quantum chess, tennis, equestrian, kickboxing, piano, etc."
       }
     },
     {
@@ -97,8 +97,8 @@
       "role": { "zh": "访问学生", "en": "Visiting Student" },
       "image": "/images/team/chengdong-sun.jpg",
       "bio": {
-        "zh": "南方科技大学创新创意设计学院访问学生。本科专业计算机科学与技术。",
-        "en": "Visiting student at SUSTech, interested in HCI, Multi-agent Systems, and AI in healthcare."
+        "zh": "南方科技大学创新创意设计学院访问学生。本科专业计算机科学与技术，感兴趣的领域主要有人机交互（Human-computer Interaction），多代理系（Multi-agent System）以及医疗健康（尤其是心理健康）中的人工智能（AI in healthcare, mental health）。目前主要在研究多代理系统及其应用。我是个兴趣爱好广泛，好读书不求甚解，好美食不远庖厨，好远游不自量力的三好少年，期待和大家一起进行更多有意思有创造力的研究，一起让世界更好一点点！",
+        "en": "Visiting student at the School of Design, Southern University of Science and Technology. He holds a Bachelor’s degree in Computer Science and Technology. His main research interests include Human-Computer Interaction, Multi-agent Systems, and Artificial Intelligence in healthcare, especially mental health. He is currently focusing on multi-agent systems and their applications. He describes himself as someone with wide-ranging interests: an avid but relaxed reader, a food lover who doesn’t hesitate to cook, and a traveler who happily overestimates his own stamina. He looks forward to doing more interesting and creative research with others and to making the world just a little bit better together."
       }
     },
     {
@@ -106,8 +106,8 @@
       "role": { "zh": "博士生", "en": "Doctoral Student" },
       "image": "/images/team/can-wang.jpg",
       "bio": {
-        "zh": "南方科技大学与香港理工大学联合培养博士生。主要研究方向为植物与人机交互的结合。",
-        "en": "Joint doctoral student at SUSTech and PolyU, researching the intersection of plants and HCI."
+        "zh": "南方科技大学与香港理工大学联合培养博士生。2014-2018年就读于南京林业大学家居与工业设计学院，主修工业设计（家具设计）专业，以优秀毕业生身份取得工科学士学位。2018-2021年就读于罗切斯特理工大学（Rochester Institute of Technology）艺术设计学院，在工业设计专业继续深造，取得美术硕士（Master of Fine Arts）学位。主要研究方向为植物与人机交互的结合，探索人、植物、与机器之间的关系。在课余时间喜欢旅游、动漫和主机游戏。",
+        "en": "Joint doctoral student at Southern University of Science and Technology and The Hong Kong Polytechnic University. From 2014 to 2018, he studied Industrial Design (Furniture Design) at the College of Furnishings and Industrial Design, Nanjing Forestry University, graduating with a Bachelor of Engineering as an Outstanding Graduate. From 2018 to 2021, he continued his studies in Industrial Design at the College of Art and Design at Rochester Institute of Technology, earning a Master of Fine Arts degree. His primary research focuses on the integration of plants and Human-Computer Interaction, exploring the relationships among humans, plants, and machines. In his spare time, he enjoys traveling, watching anime, and playing console games.",
       },
       "website": "https://cw0402skye.wixsite.com/website"
     },
@@ -116,8 +116,8 @@
       "role": { "zh": "研究生", "en": "Graduate Student" },
       "image": "/images/team/ruoyan-xie.jpg",
       "bio": {
-        "zh": "现就读于南方科技大学创新创意设计学院材料与化工专业，主要研究材料化工与人机交互交叉领域。",
-        "en": "Graduate student at SUSTech, researching the intersection of materials and HCI."
+        "zh": "本科就读于天津理工大学学习材料专业并取得工学学位。现就读于南方科技大学创新创意设计学院材料与化工专业，主要研究材料化工与人机交互交叉领域，目前正在探究具有交互性质的创新性材料在儿童教育书籍中的应用。本项目旨在通过对一些具有交互性质材料（如：温度变色材料、力致发光材料、电致发光材料等）的探索，发现其与儿童教育书籍的结合点，将其灵活应用到书籍中，最终改变现有儿童教育书籍的交互形式。希望儿童在阅读的过程中能够培养想象力、专注力等多种能力，改变读书过程枯燥无聊的刻板印象，让阅读和学习的过程像玩耍一样有趣。爱好：旅游、乒乓球。",
+        "en": "She obtained her Bachelor’s degree in Materials Science from Tianjin University of Technology. She is now a graduate student in Materials and Chemical Engineering at the School of Design, Southern University of Science and Technology, mainly working at the intersection of materials engineering and Human-Computer Interaction. Her current project explores the use of interactive and novel materials in children’s educational books. By investigating materials such as thermochromic pigments, mechanoluminescent materials, and electroluminescent materials, she aims to find ways to integrate them into children’s books and transform how children interact with educational content. The goal is to help children cultivate imagination, concentration, and other abilities during reading, and to make reading and learning as engaging as play rather than dull and boring. Her hobbies include traveling and playing table tennis."
       }
     },
     {
@@ -125,8 +125,8 @@
       "role": { "zh": "访问学生", "en": "Visiting Student" },
       "image": "/images/team/chuyang-zhang.jpg",
       "bio": {
-        "zh": "南方科技大学创新创意设计学院访问学生。目前为日本庆应大学媒体设计专业硕士在读。",
-        "en": "Visiting student at SUSTech, currently studying Media Design at Keio University."
+        "zh": "南方科技大学创新创意设计学院访问学生。目前为日本庆应大学媒体设计专业硕士在读，将于2024年9月毕业。2022年分别于武汉科技大学和伯明翰城市大学取得网络工程和计算机网络学士学位。喜欢钻研技术，我的研究兴趣为人机交互和计算机图形学的交叉，包括虚拟现实中的感觉感知计算和数字内容创作等，希望借此增强用户所能感知到的内容质量和交互体验。我是一个电子游戏爱好者，喜欢第一人称射击和动作冒险，同时也是一个游戏开发者，喜欢参加游戏开发者社区的各种活动（game jam，挑战等）。",
+        "en": "Visiting student at the School of Design, Southern University of Science and Technology. He is currently a Master’s student in Media Design at Keio University in Japan and is expected to graduate in September 2024. In 2022, he obtained dual Bachelor’s degrees in Network Engineering from Wuhan University of Science and Technology and in Computer Networks from Birmingham City University. Passionate about technology, his research interests lie at the intersection of Human-Computer Interaction and Computer Graphics, including perceptual computing and digital content creation in virtual reality, with the goal of enhancing the quality of perceived content and interactive experiences for users. He is a video game enthusiast who enjoys first-person shooters and action-adventure games, and he is also a game developer who likes participating in various community activities such as game jams and challenges."
       }
     },
     {
@@ -134,8 +134,8 @@
       "role": { "zh": "研究生", "en": "Graduate Student" },
       "image": "/images/team/zihan-zhang.jpg",
       "bio": {
-        "zh": "南方科技大学创新创意设计学院硕士，工业设计工程，研究领域着重关注LLM与AIGC的应用拓展。",
-        "en": "Master student at SUSTech, focusing on LLM and AIGC applications."
+        "zh": "张子晗（Nucleus）南方科技大学创新创意设计学院硕士，工业设计工程，研究领域着重关注LLM与AIGC的应用拓展和人机关系，擅长多学科协作，希望通过跨学科合作进一步积极探索⾯对技术、社会、经济和环境带来的变⾰，以人为本的设计初衷和社会对可持续发展设计的需要。",
+        "en": "Zihan (Nucleus) Zhang is a Master’s student in Industrial Design Engineering at the School of Design, Southern University of Science and Technology. Their research focuses on the expanding applications of large language models (LLMs) and AI-generated content (AIGC), as well as the evolving relationship between humans and intelligent systems. Skilled in multidisciplinary collaboration, they aim to explore, through cross-disciplinary work, how human-centered design can respond to technological, social, economic, and environmental transformations while addressing society’s need for sustainable design."
       }
     },
     {
@@ -143,8 +143,8 @@
       "role": { "zh": "博士生", "en": "Doctoral Student" },
       "image": "/images/team/hanqing-zhou.jpg",
       "bio": {
-        "zh": "南方科技大学博士生，研究方向为人机交互（HCI）。",
-        "en": "Doctoral student at SUSTech, focusing on HCI and Industrial Design."
+        "zh": "南方科技大学博士生，研究方向为人机交互（HCI），2023年于西安理工大学获得工业设计（ID）学士学位。我热衷于通过探索工业设计（ID）和人机交互（HCI）结合的产品设计为用户提供更好的体验。在本科期间，我获得了CSWA（国际助理机械师）和CSWP（国际机械师）认证，并曾在 “高教杯全国大学生先进成图技术与产品信息建模创新大赛 “中担任队长，获得全国一等奖。最近，我正在进行的本科毕业设计项目研究的重点为人机交互（HCI）产品在改善学前儿童社会情绪学习和调节方面的潜力，使他们能够理解和管理自己的情绪，与他人形成积极的关系，并有效地驾驭社会环境。我是一个乐观、自律、积极的人，兴趣爱好是建模/3D打印/动手工作（做一些奇怪又有趣的东西），还特别喜欢看电影！！！",
+        "en": "Doctoral student at Southern University of Science and Technology, specializing in Human-Computer Interaction. She obtained her Bachelor’s degree in Industrial Design from Xi’an University of Technology in 2023. She is passionate about creating better user experiences by integrating Industrial Design and HCI in product design. During her undergraduate studies, she earned CSWA (Certified SOLIDWORKS Associate) and CSWP (Certified SOLIDWORKS Professional) certifications and served as the team leader in the National College Advanced Mapping Technology and Product Information Modeling Innovation Competition, where her team won the national first prize. Her recent graduation project focused on the potential of HCI products to improve preschool children’s social-emotional learning and regulation, helping them understand and manage their emotions, build positive relationships, and navigate social environments more effectively. She describes herself as an optimistic, self-disciplined, and proactive person who enjoys modeling, 3D printing, and hands-on making (especially quirky and fun creations), and she absolutely loves watching movies!"
       }
     }
   ],
