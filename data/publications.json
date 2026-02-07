@@ -1,6 +1,142 @@
 {
   "publications": [
     {
+      "year": 2026,
+      "items": [
+        {
+          "authors": "C Zhang, B Yu, Y Wang, M Yuan, W Wang, S Je, P An",
+          "title": "ASafePlace: User-Led Personalization of VR Relaxation via an Art Therapy Activity",
+          "venue": "arXiv preprint arXiv:2602.01579, 2026",
+          "link": ""
+        },
+        {
+          "authors": "X Li, Y Han, D Liu, P An, S Niu",
+          "title": "When Generative AI Is Intimate, Sexy, and Violent: Examining Not-Safe-For-Work (NSFW) Chatbots on FlowGPT",
+          "venue": "arXiv preprint arXiv:2601.14324, 2026",
+          "link": "https://arxiv.org/pdf/2601.14324"
+        },
+        {
+          "authors": "H Zhou, Y Zhang, Z Zhang, W Zhang, C Wang, P An",
+          "title": "ProjecTA: A Semi-Humanoid Robotic Teaching Assistant with In-Situ Projection for Guided Tours",
+          "venue": "arXiv preprint arXiv:2601.11328, 2026",
+          "link": "https://arxiv.org/pdf/2601.11328"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "items": [
+        {
+          "authors": "T Xie, Y Ma, J Shin, P An, S Je",
+          "title": "“Do We Need Opaque Walls?”: Exploring Collaboration Space Design Using Transparency Attributes on the Room Walls in Virtual Reality",
+          "venue": "International Journal of Human–Computer Interaction, 1-23, 2025",
+          "link": ""
+        },
+        {
+          "authors": "Y Mao, Y Li, D Gong, P An, Y Luo",
+          "title": "'Can I Decorate My Teeth With Diamonds?': Exploring Multi-Stakeholder Perspectives on Using VR to Reduce Children's Dental Anxiety",
+          "venue": "Proceedings of the ACM on Human-Computer Interaction 9 (7), 1-25, 2025",
+          "link": ""
+        },
+        {
+          "authors": "W Ku, Y Liu, W Zhang, P An",
+          "title": "GenPod: Constructive News Framing in AI-Generated Podcasts More Effectively Reduces Negative Emotions Than Non-Constructive Framing",
+          "venue": "Companion of the 2025 ACM International Joint Conference on Pervasive and …, 2025",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3714394.3754374"
+        },
+        {
+          "authors": "C Liang, R Wang, Y Lin, P An, J Hu",
+          "title": "Exploring How Generative AI Painting Systems Can Enhance Social Connectedness Between Young Adults and Parents Living Apart",
+          "venue": "International Conference on Entertainment Computing, 76-91, 2025",
+          "link": ""
+        },
+        {
+          "authors": "Z Ji, P An, J Zhao",
+          "title": "ClassComet: Exploring and Designing AI-generated Danmaku in Educational Videos to Enhance Online Learning",
+          "venue": "Proceedings of the 2025 ACM Designing Interactive Systems Conference, 552-575, 2025",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3715336.3735762"
+        },
+        {
+          "authors": "M Xue, P An, Z Guo, RH Liang, J Hu, P Hansen, L Feijs",
+          "title": "A systematic review of shared personal informatics",
+          "venue": "Information and Software Technology, 107759, 2025",
+          "link": ""
+        },
+        {
+          "authors": "J Jiang, K Huang, R Martinez-Maldonado, H Zeng, D Gong, P An",
+          "title": "Novobo: Supporting Teachers' Peer Learning of Instructional Gestures by Teaching a Mentee AI-Agent Together",
+          "venue": "arXiv preprint arXiv:2505.17557, 2025",
+          "link": "https://arxiv.org/pdf/2505.17557"
+        },
+        {
+          "authors": "K Huang, J Jiang, H Lu, H Zhou, P An",
+          "title": "Visiobo: Assisting Poster Reading for Multiple Viewers with a Projector-enhanced Physical Agent",
+          "venue": "Proceedings of the Extended Abstracts of the CHI Conference on Human Factors …, 2025",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3706599.3720146"
+        },
+        {
+          "authors": "B Lyu, Z Li, P An, J Andres",
+          "title": "LumaDreams: Designing Positive Dream Meaning-Making for Daily Empowerment",
+          "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems …, 2025",
+          "link": "https://dl.acm.org/doi/full/10.1145/3706598.3713495"
+        },
+        {
+          "authors": "J Jiang, K Huang, H Zhou, H Lu, P An",
+          "title": "Visiobo Demo: Augmenting Static Prints with Projection-based Visual Cueing and Concept Mapping via LLM Reasoning",
+          "venue": "Proceedings of the Extended Abstracts of the CHI Conference on Human Factors …, 2025",
+          "link": "https://dl.acm.org/doi/full/10.1145/3706599.3721169"
+        },
+        {
+          "authors": "T Xie, X Zhang, F Huang, D Liu, P An, S Je",
+          "title": "VRCaptions: Design Captions for DHH Users in Multiplayer Communication in VR",
+          "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems …, 2025",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3706598.3714186"
+        },
+        {
+          "authors": "K Wang, R Qi, Y Ge, P An, X Li",
+          "title": "RainbowForest: A Playful Educational Tool to Engage Children with ASD in Learning through Play in Classrooms",
+          "venue": "Proceedings of the Extended Abstracts of the CHI Conference on Human Factors …, 2025",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3706599.3721166"
+        },
+        {
+          "authors": "R Zhang, J Gan, S Gao, S Chen, X Wu, D Chen, Y Tian, Q Wang, P An",
+          "title": "Walk in Their Shoes to Navigate Your Own Path: Learning About Procrastination Through A Serious Game",
+          "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems …, 2025",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3706598.3715271"
+        },
+        {
+          "authors": "Z Zhang, B Sun, P An",
+          "title": "Breaking Barriers or Building Dependency? Exploring Team-LLM Collaboration in AI-infused Classroom Debate",
+          "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems …, 2025",
+          "link": "https://dl.acm.org/doi/full/10.1145/3706598.3713853"
+        },
+        {
+          "authors": "X Liu, A Sun, P An, T Ma, J Zhao",
+          "title": "Influencer: Empowering Everyday Users in Creating Promotional Posts via AI-infused Exploration and Customization",
+          "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems …, 2025",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3706598.3713309"
+        },
+        {
+          "authors": "J Jiang, S Li, X Li, Y Xu, J Zhao, P An",
+          "title": "Playful Antisedentary Interactions for Online Meeting Scenarios: A Research Through Design Approach",
+          "venue": "JMIR Serious Games 13 (1), e62778, 2025",
+          "link": "https://games.jmir.org/2025/1/e62778/"
+        },
+        {
+          "authors": "D Liu, J Bai, Z Zhang, Y Zhang, Z Zhang, J Zhao, P An",
+          "title": "TherAIssist: Assisting Art Therapy Homework and Client-Practitioner Collaboration through Human-AI Interaction",
+          "venue": "arXiv preprint arXiv:2502.12443, 2025",
+          "link": "https://arxiv.org/pdf/2502.12443"
+        },
+        {
+          "authors": "P An, C Zhang, H Gao, Z Zhou, Y Xiao, J Zhao",
+          "title": "AniBalloons: Animated chat balloons as affective augmentation for social messaging and chatbot interaction",
+          "venue": "International Journal of Human-Computer Studies 194, 103365, 2025",
+          "link": "https://arxiv.org/pdf/2408.06294"
+        }
+      ]
+    },
+    {
       "year": 2024,
       "items": [
         {
@@ -32,6 +168,48 @@
           "title": "\"My lollipop dropped…\"-Probing Design Opportunities for SEL Agents through Children's Peer Co-Creation of Social-Emotional Stories",
           "venue": "Extended Abstract of the CHI Conference on Human Factors in Computing Systems (CHI EA '24). Association for Computing Machinery, New York, NY, USA",
           "link": "https://arxiv.org/abs/2403.03618"
+        },
+        {
+          "authors": "C Zhang, Z Zhang, W Zhang, T Zeng, B Sun, J Zhao, P An",
+          "title": "Anger Speaks Louder? Exploring the Effects of AI Nonverbal Emotional Cues on Human Decision Certainty in Moral Dilemmas",
+          "venue": "arXiv preprint arXiv:2412.15834, 2024",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3714394.3754387"
+        },
+        {
+          "authors": "Y Lyu, D Liu, P An, X Tong, H Zhang, K Katsuragawa, J Zhao",
+          "title": "EMooly: supporting autistic children in collaborative social-emotional learning with caregiver participation through interactive AI-infused and AR activities",
+          "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous …, 2024",
+          "link": "https://www.jeffjianzhao.com/papers/emooly.pdf"
+        },
+        {
+          "authors": "X Li, Y Han, D Liu, P An, S Niu",
+          "title": "FlowGPT: Exploring Domains, Output Modalities, and Goals of Community-Generated AI Chatbots",
+          "venue": "Companion Publication of the 2024 Conference on Computer-Supported …, 2024",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3678884.3681875"
+        },
+        {
+          "authors": "Y Hu, B Sun, P An, Z Li, W Hu, AJ Quigley",
+          "title": "MultiSurf-GPT: Facilitating Context-Aware Reasoning with Large-Scale Language Model Agents for Multimodal Surface Sensing",
+          "venue": "Adjunct Proceedings of the 26th International Conference on Mobile Human …, 2024",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3640471.3680450"
+        },
+        {
+          "authors": "J Zhao, AN Pengcheng, Z Zhou, Q Liu, DY Huang, L Du, W Li",
+          "title": "Methods and devices for communication with multimodal compositions",
+          "venue": "US Patent App. 18/431,698, 2024",
+          "link": ""
+        },
+        {
+          "authors": "J Liu, Y Yao, P An, Q Wang",
+          "title": "Peergpt: Probing the roles of llm-based peer agents as team moderators and participants in children's collaborative learning",
+          "venue": "Extended abstracts of the CHI conference on human factors in computing …, 2024",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3613905.3651008"
+        },
+        {
+          "authors": "Y Lyu, P An, H Zhang, K Katsuragawa, J Zhao",
+          "title": "Designing AI-enabled games to support social-emotional learning for children with autism spectrum disorders",
+          "venue": "arXiv preprint arXiv:2404.15576, 2024",
+          "link": "https://arxiv.org/pdf/2404.15576"
         }
       ]
     },
@@ -79,6 +257,12 @@
           "title": "A User Interface for Sense-making of the Reasoning Process while Interacting with Robots",
           "venue": "Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems (CHI EA '23). Association for Computing Machinery, New York, NY, USA, Article 16, 1–7",
           "link": "https://doi.org/10.1145/3544549.3585886"
+        },
+        {
+          "authors": "S Qiu, P An, K Kang, J Hu, T Han, M Rauterberg",
+          "title": "Investigating socially assistive systems from system design and evaluation: a systematic review (Nov, 10.1007/s10209-021-00852-w, 2021)",
+          "venue": "UNIVERSAL ACCESS IN THE INFORMATION SOCIETY 22 (2), 685-685, 2023",
+          "link": ""
         }
       ]
     },
@@ -114,6 +298,18 @@
           "title": "Dancing with the Unexpected and Beyond: The Use of AI Assistance in Design Fiction Creation",
           "venue": "arXiv preprint arXiv:2210.00829 (2022)",
           "link": "https://arxiv.org/abs/2210.00829"
+        },
+        {
+          "authors": "X Lai, Z Liu, X Jin, X Shao, B Yu, J Min, M Zeng, S Chen, Q Liang, Y Ji, ...",
+          "title": "Multi-sensory Interaction for Meditation",
+          "venue": "Proceedings of the Tenth International Symposium of Chinese CHI, 328-336, 2022",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3565698.3587398"
+        },
+        {
+          "authors": "Z Fu, J Chen, X Huang, Z Li, Z Chen, M Xin, Y Liang, Y Chen, L Jia, H Jia, ...",
+          "title": "A Multi-media Entry to Traditional Chinese Art",
+          "venue": "Proceedings of the Tenth International Symposium of Chinese CHI, 315-327, 2022",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3565698.3587397"
         }
       ]
     },
@@ -155,6 +351,36 @@
           "title": "Designing Mobile EEG Neurofeedback Games for Children with Autism",
           "venue": "Adjunct Publication of the 23rd International Conference on Mobile Human-Computer Interaction. Association for Computing Machinery, New York, NY, USA, Article 23, 1–6",
           "link": "https://doi.org/10.1145/3447527.3477522"
+        },
+        {
+          "authors": "S Qiu, P An, K Kang, J Hu, T Han, M Rauterberg",
+          "title": "A review of data gathering methods for evaluating socially assistive systems",
+          "venue": "Sensors 22 (1), 82, 2021",
+          "link": "https://www.mdpi.com/1424-8220/22/1/82"
+        },
+        {
+          "authors": "C Wang, P An",
+          "title": "Explainability via interactivity? Supporting nonexperts’ sensemaking of pre-trained cnn by interacting with their daily surroundings",
+          "venue": "Extended Abstracts of the 2021 Annual Symposium on Computer-Human …, 2021",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3450337.3483487"
+        },
+        {
+          "authors": "C Wang, P An",
+          "title": "A mobile tool that helps nonexperts make sense of pretrained cnn by interacting with their daily surroundings",
+          "venue": "Adjunct Publication of the 23rd International Conference on Mobile Human …, 2021",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3447527.3474873"
+        },
+        {
+          "authors": "J An, Y Chuang, P An",
+          "title": "Check-! n Toolkit for Capturing Guests’ Momentary Experiences Without Disturbing Their Traveling",
+          "venue": "International Conference on Human-Computer Interaction, 581-598, 2021",
+          "link": ""
+        },
+        {
+          "authors": "C Wang, S Hasler, M Mühlig, F Joublin, A Ceravola, J Deigmoeller, ...",
+          "title": "Designing interaction for multi-agent cooperative system in an office environment",
+          "venue": "Companion of the 2021 ACM/IEEE International Conference on Human-Robot …, 2021",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3434074.3447277"
         }
       ]
     },
@@ -178,6 +404,24 @@
           "title": "Dandelion Diagram: Aggregating Positioning and Orientation Data in the Visualization of Classroom Proxemics",
           "venue": "Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA '20). Association for Computing Machinery, New York, NY, USA, 1–8",
           "link": "https://doi.org/10.1145/3334480.3382795"
+        },
+        {
+          "authors": "S Qiu, P An, J Hu, T Han, M Rauterberg",
+          "title": "Understanding visually impaired people’s experiences of social signal perception in face-to-face communication",
+          "venue": "Universal access in the information society 19 (4), 873-890, 2020",
+          "link": "https://www.researchgate.net/profile/Matthias-Rauterberg/publication/337026074_Understanding_visually_impaired_people's_experiences_of_social_signal_perception_in_face-to-face_communication/links/5e16f6d492851c8364bda696/Understanding-visually-impaired-peoples-experiences-of-social-signal-perception-in-face-to-face-communication.pdf"
+        },
+        {
+          "authors": "X Ren, P An, T Bekker, Y Chen, RA Khot, M Ten Bhömer, Y Wang, ...",
+          "title": "Weaving healthy behaviors into new technology routines: Designing in (and for) the COVID-19 work-from-home period",
+          "venue": "Companion Publication of the 2020 ACM Designing Interactive Systems …, 2020",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3393914.3395911"
+        },
+        {
+          "authors": "G Jiang, M Shi, P An, Y Su, Y Wang, BY Lim",
+          "title": "NaMemo: Enhancing Lecturers' Interpersonal Competence of Remembering Students' Names",
+          "venue": "Companion Publication of the 2020 ACM Designing Interactive Systems …, 2020",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3393914.3395860"
         }
       ]
     },
@@ -196,6 +440,53 @@
           "title": "Beepless: Using Peripheral Interaction in an Intensive Care Setting",
           "venue": "Proceedings of the 2019 on Designing Interactive Systems Conference (DIS '19). Association for Computing Machinery, New York, NY, USA, 607–620",
           "link": "https://doi.org/10.1145/3322276.3323696"
+        },
+        {
+          "authors": "P An",
+          "title": "Designing peripheral interaction for professional practitioners",
+          "venue": "",
+          "link": "https://research.tue.nl/files/137380283/20191028_An.pdf"
+        },
+        {
+          "authors": "B Yu, B Zhang, P An, L Xu, M Xue, J Hu",
+          "title": "An unobtrusive stress recognition system for the smart office",
+          "venue": "2019 41st Annual International Conference of the IEEE Engineering in …, 2019",
+          "link": "https://www.researchgate.net/profile/Bin-Yu-14/publication/336331191_An_Unobtrusive_Stress_Recognition_System_for_the_Smart_Office/links/5e3a83da458515072d805d69/An-Unobtrusive-Stress-Recognition-System-for-the-Smart-Office.pdf"
+        },
+        {
+          "authors": "B d'Anjou, S Bakker, P An, T Bekker",
+          "title": "How peripheral data visualisation systems support secondary school teachers during VLE-supported lessons",
+          "venue": "Proceedings of the 2019 on designing interactive systems conference, 859-870, 2019",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3322276.3322365"
+        },
+        {
+          "authors": "P An, S Bakker, S Ordanovski, R Taconis, CLE Paffen, B Eggen",
+          "title": "Classbeacons: Enhancing reflection-in-action of teachers through spatially distributed ambient information",
+          "venue": "Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing …, 2019",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3290607.3313239"
+        },
+        {
+          "authors": "B Yu, B Zhang, P An, L Xu, M Xue, J Hu",
+          "title": "An Unobtrusive Stress Recognition System for the Smart Office: 2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+          "venue": "",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "items": [
+        {
+          "authors": "N Zhang, B Yu, P An, M Li, Y Li, J Hu",
+          "title": "Creating tactile emotional expressions based on breathing patterns",
+          "venue": "Proceedings of the Sixth International Symposium of Chinese CHI, 164-167, 2018",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3202667.3202697"
+        },
+        {
+          "authors": "P An, S Bakker, S Ordanovski, R Taconis, B Eggen",
+          "title": "ClassBeacons: Designing Distributed Visualization of Teachers' Physical Proximity in the Classroom",
+          "venue": "Proceedings of the Twelfth International Conference on Tangible, Embedded …, 2018",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3173225.3173243"
         }
       ]
     },
@@ -219,4 +510,3 @@
     }
   ]
 }
-
