@@ -19,7 +19,8 @@
           "authors": "H Zhou, Y Zhang, Z Zhang, W Zhang, C Wang, P An",
           "title": "ProjecTA: A Semi-Humanoid Robotic Teaching Assistant with In-Situ Projection for Guided Tours",
           "venue": "arXiv preprint arXiv:2601.11328, 2026",
-          "link": "https://arxiv.org/pdf/2601.11328"
+          "link": "https://arxiv.org/pdf/2601.11328",
+          "pdf": "/papers/projecta-a-semi-humanoid-robotic-teaching-assistant-with-in-situ-projection-for-.pdf"
         }
       ]
     },
@@ -140,7 +141,8 @@
           "authors": "P An, C Zhang, H Gao, Z Zhou, Y Xiao, J Zhao",
           "title": "AniBalloons: Animated chat balloons as affective augmentation for social messaging and chatbot interaction",
           "venue": "International Journal of Human-Computer Studies 194, 103365, 2025",
-          "link": "https://arxiv.org/pdf/2408.06294"
+          "link": "https://arxiv.org/pdf/2408.06294",
+          "pdf": "/papers/aniballoons-animated-chat-balloons-as-affective-augmentation-for-social-messagin.pdf"
         }
       ]
     },
@@ -253,7 +255,8 @@
           "authors": "Pengcheng An, Chaoyu Zhang, Haichen Gao, Ziqi Zhou, Linghao Du, Che Yan, Yage Xiao, and Jian Zhao",
           "title": "Affective Affordance of Message Balloon Animations: An Early Exploration of AniBalloons",
           "venue": "Companion Publication of the 2023 Conference on Computer Supported Cooperative Work and Social Computing (CSCW '23 Companion). Association for Computing Machinery, New York, NY, USA, 138–143",
-          "link": "https://doi.org/10.1145/3584931.3607017"
+          "link": "https://doi.org/10.1145/3584931.3607017",
+          "pdf": "/papers/affective-affordance-of-message-balloon-animations-an-early-exploration-of-aniba.pdf"
         },
         {
           "authors": "Jiang, G., Zhu, J., Li, Y. et al.",
@@ -266,19 +269,22 @@
           "authors": "Sark Pangrui Xing, Bart Van Dijk, Pengcheng An, Miguel Bruns, Yaliang Chuang, and Stephen Jia Wang",
           "title": "Puffy: A Step-by-step Guide to Craft Bio-inspired Artifacts with Interactive Materiality",
           "venue": "Proceedings of the Seventeenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '23). Association for Computing Machinery, New York, NY, USA, Article 29, 1–14",
-          "link": "https://doi.org/10.1145/3569009.3572800"
+          "link": "https://doi.org/10.1145/3569009.3572800",
+          "pdf": "/papers/puffy-a-step-by-step-guide-to-craft-bio-inspired-artifacts-with-interactive-mate.pdf"
         },
         {
           "authors": "Chao Wang, Joerg Deigmoeller, Pengcheng An, and Julian Eggert",
           "title": "A User Interface for Sense-making of the Reasoning Process while Interacting with Robots",
           "venue": "Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems (CHI EA '23). Association for Computing Machinery, New York, NY, USA, Article 16, 1–7",
-          "link": "https://doi.org/10.1145/3544549.3585886"
+          "link": "https://doi.org/10.1145/3544549.3585886",
+          "pdf": "/papers/a-user-interface-for-sense-making-of-the-reasoning-process-while-interacting-wit.pdf"
         },
         {
           "authors": "S Qiu, P An, K Kang, J Hu, T Han, M Rauterberg",
           "title": "Investigating socially assistive systems from system design and evaluation: a systematic review (Nov, 10.1007/s10209-021-00852-w, 2021)",
           "venue": "UNIVERSAL ACCESS IN THE INFORMATION SOCIETY 22 (2), 685-685, 2023",
-          "link": ""
+          "link": "",
+          "pdf": "/papers/investigating-socially-assistive-systems-from-system-design-and-evaluation-a-sys.pdf"
         }
       ]
     },
@@ -342,7 +348,8 @@
           "authors": "Bin Yu, Pengcheng An, Sjoerd Hendriks, Ning Zhang, Loe Feijs, Min Li & Jun Hu",
           "title": "ViBreathe: Heart Rate Variability Enhanced Respiration Training for Workaday Stress Management via an Eyes-Free Tangible Interface",
           "venue": "International Journal of Human–Computer Interaction, 37:16, 1551-1570",
-          "link": "https://doi.org/10.1080/10447318.2021.1898827"
+          "link": "https://doi.org/10.1080/10447318.2021.1898827",
+          "pdf": "/papers/vibreathe-heart-rate-variability-enhanced-respiration-training-for-workaday-stre.pdf"
         },
         {
           "authors": "Qiu, S., An, P., Kang, K. et al.",
@@ -361,25 +368,29 @@
           "authors": "Gloria Fernandez-Nieto, Roberto Martinez-Maldonado, Vanessa Echeverria, Kirsty Kitto, Pengcheng An, and Simon Buckingham Shum",
           "title": "What Can Analytics for Teamwork Proxemics Reveal About Positioning Dynamics In Clinical Simulations?",
           "venue": "Proc. ACM Hum.-Comput. Interact. 5, CSCW1, Article 185 (April 2021), 24 pages",
-          "link": "https://doi.org/10.1145/3449284"
+          "link": "https://doi.org/10.1145/3449284",
+          "pdf": "/papers/what-can-analytics-for-teamwork-proxemics-reveal-about-positioning-dynamics-in-c.pdf"
         },
         {
           "authors": "An, P.; Van Leeuwen, A.",
           "title": "Light Bulb Moments in the Classroom: Probing Design Opportunities for Ambient LA Displays in Higher Education",
           "venue": "7th International Conference on Higher Education Advances (HEAd'21). Editorial Universitat Politècnica de València. 215-223",
-          "link": "https://doi.org/10.4995/HEAd21.2021.12807"
+          "link": "https://doi.org/10.4995/HEAd21.2021.12807",
+          "pdf": "/papers/light-bulb-moments-in-the-classroom-probing-design-opportunities-for-ambient-la-.pdf"
         },
         {
           "authors": "Zhaoyi Yang, Pengcheng An, Jinchen Yang, Samuel Strojny, Zihui Zhang, Dongsheng Sun, and Jian Zhao",
           "title": "Designing Mobile EEG Neurofeedback Games for Children with Autism",
           "venue": "Adjunct Publication of the 23rd International Conference on Mobile Human-Computer Interaction. Association for Computing Machinery, New York, NY, USA, Article 23, 1–6",
-          "link": "https://doi.org/10.1145/3447527.3477522"
+          "link": "https://doi.org/10.1145/3447527.3477522",
+          "pdf": "/papers/designing-mobile-eeg-neurofeedback-games-for-children-with-autism.pdf"
         },
         {
           "authors": "S Qiu, P An, K Kang, J Hu, T Han, M Rauterberg",
           "title": "A review of data gathering methods for evaluating socially assistive systems",
           "venue": "Sensors 22 (1), 82, 2021",
-          "link": "https://www.mdpi.com/1424-8220/22/1/82"
+          "link": "https://www.mdpi.com/1424-8220/22/1/82",
+          "pdf": "/papers/a-review-of-data-gathering-methods-for-evaluating-socially-assistive-systems.pdf"
         },
         {
           "authors": "C Wang, P An",
@@ -469,7 +480,8 @@
           "authors": "Miguel Cabral Guerra, Deedee Kommers, Saskia Bakker, Pengcheng An, Carola van Pul, and Peter Andriessen",
           "title": "Beepless: Using Peripheral Interaction in an Intensive Care Setting",
           "venue": "Proceedings of the 2019 on Designing Interactive Systems Conference (DIS '19). Association for Computing Machinery, New York, NY, USA, 607–620",
-          "link": "https://doi.org/10.1145/3322276.3323696"
+          "link": "https://doi.org/10.1145/3322276.3323696",
+          "pdf": "/papers/beepless-using-peripheral-interaction-in-an-intensive-care-setting.pdf"
         },
         {
           "authors": "P An",
@@ -530,7 +542,8 @@
           "title": "FeetForward: On Blending New Classroom Technologies into Secondary School Teachers' Routines",
           "venue": "Human-Computer Interaction - INTERACT 2017. Lecture Notes in Computer Science, vol 10514. Springer, Cham",
           "link": "https://doi.org/10.1007/978-3-319-67684-5_20",
-          "award": "Reviewer's Choice Award"
+          "award": "Reviewer's Choice Award",
+          "pdf": "/papers/feetforward-on-blending-new-classroom-technologies-into-secondary-school-teacher.pdf"
         },
         {
           "authors": "An, P., Bakker, S. & Eggen, B.",

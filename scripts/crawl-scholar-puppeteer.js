@@ -86,72 +86,138 @@ function isPdfFile(filePath) {
 // ─── PDF Download (Puppeteer-based) ─────────────────────────────────────────
 
 /**
- * Resolve a paper link to an actual downloadable PDF URL.
+ * Resolve a paper link to one or more candidate downloadable PDF URLs.
  *
- * Many links from Google Scholar detail pages already point directly
- * to PDFs (e.g. dl.acm.org/doi/pdf/..., arxiv.org/pdf/...).
- * For others we need to transform the URL or find the PDF on the page.
+ * Returns an array of URLs to try in order. Many links from Google Scholar
+ * detail pages already point directly to PDFs (e.g. dl.acm.org/doi/pdf/...,
+ * arxiv.org/pdf/...). For others we transform the URL or guess the PDF path.
  */
-function resolvePdfUrl(paperLink) {
-  if (!paperLink) return null;
+function resolvePdfUrls(paperLink) {
+  if (!paperLink) return [];
+
+  const candidates = [];
 
   // Already a direct PDF link
-  if (paperLink.match(/\.pdf(\?|$|#)/i)) return paperLink;
+  if (paperLink.match(/\.pdf(\?|$|#)/i)) {
+    candidates.push(paperLink);
+    return candidates;
+  }
 
   // arXiv abstract → PDF
   const arxivAbs = paperLink.match(/arxiv\.org\/abs\/(.+?)(?:\?|#|$)/);
-  if (arxivAbs) return `https://arxiv.org/pdf/${arxivAbs[1]}.pdf`;
+  if (arxivAbs) {
+    candidates.push(`https://arxiv.org/pdf/${arxivAbs[1]}.pdf`);
+    return candidates;
+  }
 
   // arXiv /pdf/ without .pdf extension
   if (paperLink.includes("arxiv.org/pdf/")) {
-    return paperLink.endsWith(".pdf") ? paperLink : paperLink + ".pdf";
+    candidates.push(paperLink.endsWith(".pdf") ? paperLink : paperLink + ".pdf");
+    return candidates;
   }
 
-  // ACM DL: /doi/full/ → /doi/pdf/  or /doi/10.xxx → /doi/pdf/10.xxx
+  // ACM DL: try /doi/pdf/ variant
   if (paperLink.includes("dl.acm.org")) {
     if (paperLink.includes("/doi/full/")) {
-      return paperLink.replace("/doi/full/", "/doi/pdf/");
+      candidates.push(paperLink.replace("/doi/full/", "/doi/pdf/"));
+    } else if (paperLink.includes("/doi/abs/")) {
+      candidates.push(paperLink.replace("/doi/abs/", "/doi/pdf/"));
+    } else {
+      // dl.acm.org/doi/10.xxxx → dl.acm.org/doi/pdf/10.xxxx
+      const acmDoi = paperLink.match(/dl\.acm\.org\/doi\/(10\.\d+\/.+?)(?:\?|#|$)/);
+      if (acmDoi) candidates.push(`https://dl.acm.org/doi/pdf/${acmDoi[1]}`);
     }
-    if (paperLink.includes("/doi/abs/")) {
-      return paperLink.replace("/doi/abs/", "/doi/pdf/");
-    }
-    // dl.acm.org/doi/10.xxxx → dl.acm.org/doi/pdf/10.xxxx
-    const acmDoi = paperLink.match(/dl\.acm\.org\/doi\/(10\.\d+\/.+?)(?:\?|#|$)/);
-    if (acmDoi) return `https://dl.acm.org/doi/pdf/${acmDoi[1]}`;
+    return candidates;
   }
 
   // Springer: article page → pdf page
   if (paperLink.includes("link.springer.com/article/")) {
-    return paperLink.replace("/article/", "/content/pdf/") + ".pdf";
+    candidates.push(paperLink.replace("/article/", "/content/pdf/") + ".pdf");
+    // Also try the epub/pdf endpoint
+    const springerDoi = paperLink.match(/link\.springer\.com\/article\/(10\..+?)(?:\?|#|$)/);
+    if (springerDoi) {
+      candidates.push(`https://link.springer.com/content/pdf/${springerDoi[1]}.pdf`);
+    }
+    return candidates;
+  }
+
+  // Springer chapter
+  if (paperLink.includes("link.springer.com/chapter/")) {
+    candidates.push(paperLink.replace("/chapter/", "/content/pdf/") + ".pdf");
+    return candidates;
   }
 
   // MDPI: article page → pdf
   if (paperLink.includes("mdpi.com") && !paperLink.includes("/pdf")) {
-    return paperLink.replace(/\/?$/, "/pdf");
+    candidates.push(paperLink.replace(/\/?$/, "/pdf"));
+    return candidates;
   }
 
   // Taylor & Francis
-  if (paperLink.includes("tandfonline.com") && !paperLink.includes("/pdf/")) {
-    return paperLink.replace("/doi/abs/", "/doi/pdf/").replace("/doi/full/", "/doi/pdf/");
+  if (paperLink.includes("tandfonline.com")) {
+    if (paperLink.includes("/doi/abs/")) {
+      candidates.push(paperLink.replace("/doi/abs/", "/doi/pdf/"));
+    } else if (paperLink.includes("/doi/full/")) {
+      candidates.push(paperLink.replace("/doi/full/", "/doi/pdf/"));
+    }
+    return candidates;
   }
 
-  // ScienceDirect — these often need browser navigation, return null to try browser method
+  // IEEE Xplore
+  if (paperLink.includes("ieeexplore.ieee.org")) {
+    const ieeeMatch = paperLink.match(/document\/(\d+)/);
+    if (ieeeMatch) {
+      candidates.push(`https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=${ieeeMatch[1]}`);
+    }
+    // Will fall through to browser-based discovery too
+  }
+
+  // ScienceDirect — try the pii-based PDF endpoint
   if (paperLink.includes("sciencedirect.com")) {
-    return null; // Will use browser-based download
+    const piiMatch = paperLink.match(/pii\/([A-Z0-9]+)/i);
+    if (piiMatch) {
+      candidates.push(`https://www.sciencedirect.com/science/article/pii/${piiMatch[1]}/pdfft`);
+    }
+    // Will also try browser-based meta tag discovery
+  }
+
+  // ResearchGate — direct links usually work as-is
+  if (paperLink.includes("researchgate.net") && paperLink.includes("/publication/")) {
+    // ResearchGate PDF links often end with the filename, try as-is
+    candidates.push(paperLink);
+  }
+
+  // JMIR and similar: try appending /pdf
+  if (paperLink.includes("jmir.org")) {
+    candidates.push(paperLink.replace(/\/?$/, "/pdf"));
+    candidates.push(paperLink);
+  }
+
+  // DOI.org redirect — resolve DOI to actual URL
+  if (paperLink.includes("doi.org/") && !paperLink.includes("dl.acm.org")) {
+    // DOI links redirect; we'll let the browser follow the redirect
+    candidates.push(paperLink);
   }
 
   // Google Drive
   if (paperLink.includes("drive.google.com/file")) {
     const idMatch = paperLink.match(/\/d\/([^/]+)/);
-    if (idMatch) return `https://drive.google.com/uc?export=download&id=${idMatch[1]}`;
+    if (idMatch) candidates.push(`https://drive.google.com/uc?export=download&id=${idMatch[1]}`);
+    return candidates;
   }
 
   // If URL contains /pdf/ it's likely already a PDF endpoint
   if (paperLink.includes("/pdf/") || paperLink.includes("/pdf?")) {
-    return paperLink;
+    candidates.push(paperLink);
   }
 
-  return null; // Will try browser-based discovery
+  return candidates; // May be empty — will try browser-based discovery
+}
+
+// Backward-compat wrapper: returns the first candidate or null
+function resolvePdfUrl(paperLink) {
+  const urls = resolvePdfUrls(paperLink);
+  return urls.length > 0 ? urls[0] : null;
 }
 
 /**
@@ -161,12 +227,12 @@ function resolvePdfUrl(paperLink) {
  * the download, which means we get the benefit of cookies, session,
  * and proper TLS handling — just like clicking a link in the browser.
  */
-async function downloadPdfWithBrowser(page, pdfUrl, destPath, timeout = 30000) {
+async function downloadPdfWithBrowser(page, pdfUrl, destPath, timeout = 60000) {
   // Use CDP to fetch the PDF with the browser's session
   const client = await page.createCDPSession();
 
   try {
-    const response = await client.send("Network.enable");
+    await client.send("Network.enable");
 
     // Use page.evaluate with fetch API to download using the browser's context
     const base64Data = await page.evaluate(async (url) => {
@@ -180,19 +246,24 @@ async function downloadPdfWithBrowser(page, pdfUrl, destPath, timeout = 30000) {
           return { error: `HTTP ${resp.status}` };
         }
 
-        const contentType = resp.headers.get("content-type") || "";
+        const buffer = await resp.arrayBuffer();
+        const bytes = new Uint8Array(buffer);
 
-        // If it's not a PDF (e.g. HTML login page), fail early
-        if (
-          contentType.includes("text/html") &&
-          !contentType.includes("pdf")
-        ) {
-          return { error: "Got HTML instead of PDF" };
+        // Check the actual file header instead of trusting content-type.
+        // PDF files always start with "%PDF"
+        if (bytes.length >= 4) {
+          const header = String.fromCharCode(bytes[0], bytes[1], bytes[2], bytes[3]);
+          if (header !== "%PDF") {
+            // Check if it looks like HTML (login page, error page, etc.)
+            const firstChars = String.fromCharCode(...bytes.slice(0, Math.min(200, bytes.length)));
+            if (firstChars.includes("<!DOCTYPE") || firstChars.includes("<html") || firstChars.includes("<HTML")) {
+              return { error: "Got HTML page instead of PDF" };
+            }
+            return { error: `Not a PDF file (header: ${header})` };
+          }
         }
 
-        const buffer = await resp.arrayBuffer();
         // Convert to base64 for transfer from browser to Node
-        const bytes = new Uint8Array(buffer);
         let binary = "";
         const chunkSize = 8192;
         for (let i = 0; i < bytes.length; i += chunkSize) {
@@ -239,57 +310,120 @@ async function tryDownloadPdf(browser, page, paperLink, filename) {
     return pdfRelPath;
   }
 
-  // Step 1: Try to resolve a direct PDF URL from the paper link
-  let pdfUrl = resolvePdfUrl(paperLink);
-
-  // Step 2: If we have a URL, try downloading with browser
-  if (pdfUrl) {
+  // Helper: attempt download from a URL, return true on success
+  async function attemptDownload(url, label) {
     try {
-      await downloadPdfWithBrowser(page, pdfUrl, pdfPath);
+      await downloadPdfWithBrowser(page, url, pdfPath);
       if (isPdfFile(pdfPath)) {
         const sizeMB = (fs.statSync(pdfPath).size / 1024 / 1024).toFixed(1);
-        console.log(`     ✓ PDF saved (${sizeMB} MB)`);
-        return pdfRelPath;
+        console.log(`     ✓ PDF saved ${label} (${sizeMB} MB)`);
+        return true;
       } else {
-        // Not a valid PDF
         if (fs.existsSync(pdfPath)) fs.unlinkSync(pdfPath);
       }
     } catch (err) {
       if (fs.existsSync(pdfPath)) fs.unlinkSync(pdfPath);
-      // Fall through to browser-based discovery
     }
+    return false;
   }
 
-  // Step 3: Navigate to the paper page and look for citation_pdf_url meta tag
-  try {
-    await page.goto(paperLink, { waitUntil: "networkidle2", timeout: 20000 });
-    await sleep(500);
+  // Step 1: Try all resolved candidate PDF URLs
+  const candidateUrls = resolvePdfUrls(paperLink);
+  for (const url of candidateUrls) {
+    if (await attemptDownload(url, `via resolved URL`)) return pdfRelPath;
+  }
 
-    const metaPdfUrl = await page.evaluate(() => {
-      const meta = document.querySelector('meta[name="citation_pdf_url"]');
-      return meta ? meta.getAttribute("content") : null;
+  // Step 2: Navigate to the paper page and look for meta tags & PDF links
+  try {
+    await page.goto(paperLink, { waitUntil: "networkidle2", timeout: 25000 });
+    await sleep(1000);
+
+    // Try citation_pdf_url meta tag (used by most academic publishers)
+    const pdfLinks = await page.evaluate(() => {
+      const links = [];
+
+      // Meta tag: citation_pdf_url (ACM, Springer, IEEE, etc.)
+      const metaCitation = document.querySelector('meta[name="citation_pdf_url"]');
+      if (metaCitation) {
+        const url = metaCitation.getAttribute("content");
+        if (url) links.push(url);
+      }
+
+      // Meta tag: dc.identifier (some publishers)
+      const metaDc = document.querySelector('meta[name="dc.identifier"][scheme="doi"]');
+
+      // Look for direct PDF download links on the page
+      const allLinks = document.querySelectorAll('a[href]');
+      for (const a of allLinks) {
+        const href = a.href;
+        const text = (a.textContent || "").toLowerCase();
+        const ariaLabel = (a.getAttribute("aria-label") || "").toLowerCase();
+        const title = (a.getAttribute("title") || "").toLowerCase();
+
+        // Links that point to PDF files
+        if (href.match(/\.pdf(\?|$|#)/i)) {
+          links.push(href);
+          continue;
+        }
+
+        // Links with "PDF" in text/aria/title (common on publisher pages)
+        if (
+          (text.includes("pdf") || text.includes("download") ||
+           ariaLabel.includes("pdf") || title.includes("pdf")) &&
+          href.includes("http")
+        ) {
+          links.push(href);
+        }
+      }
+
+      return links;
     });
 
-    if (metaPdfUrl) {
-      const absoluteUrl = metaPdfUrl.startsWith("http")
-        ? metaPdfUrl
-        : new URL(metaPdfUrl, paperLink).href;
+    // Try each found PDF link
+    for (const link of pdfLinks) {
+      const absoluteUrl = link.startsWith("http")
+        ? link
+        : new URL(link, paperLink).href;
 
-      try {
-        await downloadPdfWithBrowser(page, absoluteUrl, pdfPath);
-        if (isPdfFile(pdfPath)) {
-          const sizeMB = (fs.statSync(pdfPath).size / 1024 / 1024).toFixed(1);
-          console.log(`     ✓ PDF saved via meta tag (${sizeMB} MB)`);
-          return pdfRelPath;
-        } else {
-          if (fs.existsSync(pdfPath)) fs.unlinkSync(pdfPath);
-        }
-      } catch {
-        if (fs.existsSync(pdfPath)) fs.unlinkSync(pdfPath);
-      }
+      if (await attemptDownload(absoluteUrl, `via page link`)) return pdfRelPath;
     }
   } catch {
     // Page navigation failed, skip
+  }
+
+  // Step 3: For DOI links, try the Unpaywall API (free/open-access PDFs)
+  try {
+    const doiMatch = paperLink.match(/(?:doi\.org\/|\/doi\/(?:abs|full|pdf)?\/?)?(10\.\d{4,9}\/[^\s?#]+)/);
+    if (doiMatch) {
+      const doi = doiMatch[1];
+      const unpaywallUrl = `https://api.unpaywall.org/v2/${doi}?email=crawler@example.com`;
+
+      const oaResult = await page.evaluate(async (url) => {
+        try {
+          const resp = await fetch(url);
+          if (!resp.ok) return null;
+          const data = await resp.json();
+          if (data.best_oa_location && data.best_oa_location.url_for_pdf) {
+            return data.best_oa_location.url_for_pdf;
+          }
+          // Try other OA locations
+          if (data.oa_locations) {
+            for (const loc of data.oa_locations) {
+              if (loc.url_for_pdf) return loc.url_for_pdf;
+            }
+          }
+          return null;
+        } catch {
+          return null;
+        }
+      }, unpaywallUrl);
+
+      if (oaResult) {
+        if (await attemptDownload(oaResult, `via Unpaywall OA`)) return pdfRelPath;
+      }
+    }
+  } catch {
+    // Unpaywall lookup failed, skip
   }
 
   // Step 4: Could not download PDF
@@ -409,6 +543,7 @@ async function scrapePublications(browser) {
         timeout: 30000,
       });
 
+      // Get the primary paper link
       const link = await page
         .$eval("#gsc_oci_title_gg a", (a) => a.href)
         .catch(() => "");
@@ -416,6 +551,24 @@ async function scrapePublications(browser) {
       pub.link = link;
       if (link) {
         console.log(`     → ${link}`);
+      }
+
+      // Also try to extract any additional PDF links from the detail page
+      // (Scholar sometimes shows a direct PDF link separately)
+      const extraPdfLink = await page.evaluate(() => {
+        const links = document.querySelectorAll("#gsc_oci_title_gg a");
+        for (const a of links) {
+          const href = a.href || "";
+          if (href.match(/\.pdf(\?|$|#)/i) || href.includes("/pdf/")) {
+            return href;
+          }
+        }
+        return null;
+      }).catch(() => null);
+
+      if (extraPdfLink && extraPdfLink !== link) {
+        pub.scholarPdfLink = extraPdfLink;
+        console.log(`     → PDF: ${extraPdfLink}`);
       }
 
       await sleep(1000);
@@ -528,7 +681,7 @@ async function main() {
     console.log(`  New publications        : ${newPubs.length}`);
     console.log();
 
-    // 4. Download PDFs
+    // 4. Download PDFs (for ALL publications — new and existing)
     if (!skipPdf && !dryRun) {
       console.log("--- Downloading PDFs ---\n");
 
@@ -541,13 +694,14 @@ async function main() {
       let downloadedCount = 0;
       let skippedCount = 0;
       let failedCount = 0;
+      let retriedCount = 0;
 
       for (let i = 0; i < scholarPubs.length; i++) {
         const pub = scholarPubs[i];
         const filename = titleToFilename(pub.title);
         const pdfPath = path.join(PAPERS_DIR, `${filename}.pdf`);
 
-        // Check if existing entry already has a valid pdf
+        // Check if existing entry already has a valid pdf ON DISK
         const existingItem = existingTitleMap.get(normalizeTitle(pub.title));
         if (existingItem && existingItem.pdf) {
           const existingPdfPath = path.join(
@@ -562,7 +716,7 @@ async function main() {
           }
         }
 
-        // Check if PDF file already exists on disk
+        // Check if PDF file already exists on disk (but not in JSON)
         if (fs.existsSync(pdfPath) && isPdfFile(pdfPath)) {
           const pdfRelPath = `/papers/${filename}.pdf`;
           pub.pdf = pdfRelPath;
@@ -571,31 +725,46 @@ async function main() {
           continue;
         }
 
-        // No paper link? Can't download.
-        if (!pub.link) {
+        // Collect all available links to try (in priority order)
+        const linksToTry = [];
+        if (pub.scholarPdfLink) linksToTry.push(pub.scholarPdfLink);
+        if (pub.link) linksToTry.push(pub.link);
+        if (existingItem && existingItem.link && !linksToTry.includes(existingItem.link)) {
+          linksToTry.push(existingItem.link);
+        }
+
+        // No paper link at all? Can't download.
+        if (linksToTry.length === 0) {
           failedCount++;
           continue;
         }
 
+        const isRetry = existingItem && !existingItem.pdf;
         const shortTitle =
           pub.title.length > 55
             ? pub.title.substring(0, 55) + "..."
             : pub.title;
         console.log(
-          `  [${i + 1}/${scholarPubs.length}] ${shortTitle}`
+          `  [${i + 1}/${scholarPubs.length}]${isRetry ? " [RETRY]" : ""} ${shortTitle}`
         );
 
-        const pdfRelPath = await tryDownloadPdf(
-          browser,
-          dlPage,
-          pub.link,
-          filename
-        );
+        // Try each link until one succeeds
+        let pdfRelPath = null;
+        for (const link of linksToTry) {
+          pdfRelPath = await tryDownloadPdf(
+            browser,
+            dlPage,
+            link,
+            filename
+          );
+          if (pdfRelPath) break;
+        }
 
         if (pdfRelPath) {
           pub.pdf = pdfRelPath;
           if (existingItem) existingItem.pdf = pdfRelPath;
           downloadedCount++;
+          if (isRetry) retriedCount++;
         } else {
           failedCount++;
         }
@@ -606,7 +775,7 @@ async function main() {
       await dlPage.close();
 
       console.log(`\n--- PDF Summary ---`);
-      console.log(`  Downloaded : ${downloadedCount}`);
+      console.log(`  Downloaded : ${downloadedCount} (${retriedCount} previously failed, now succeeded)`);
       console.log(`  Skipped    : ${skippedCount} (already exist)`);
       console.log(`  Failed     : ${failedCount} (not available)`);
       console.log();
