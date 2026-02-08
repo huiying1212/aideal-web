@@ -4,10 +4,21 @@ import Link from 'next/link'
 import { useLanguage } from '@/contexts/LanguageContext'
 import siteData from '@/data/site.json'
 import projectsData from '@/data/projects.json'
+import publicationsData from '@/data/publications.json'
 
 export default function Home() {
   const { lang, t } = useLanguage()
   const recentProjects = projectsData.projects.slice(0, 4)
+  
+  // Get the 3 most recent publications
+  const recentPublications = publicationsData.publications
+    .flatMap(yearGroup => 
+      yearGroup.items.map(item => ({
+        ...item,
+        year: yearGroup.year
+      }))
+    )
+    .slice(0, 3)
 
   return (
     <div className="min-h-screen">
@@ -54,7 +65,7 @@ export default function Home() {
             {t('最新动态', 'Latest News')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {siteData.news.slice(0, 3).map((item, index) => (
+            {recentPublications.map((item, index) => (
               <article
                 key={index}
                 className="group p-6 bg-zinc-50 rounded-2xl hover:bg-zinc-100/80 transition-all duration-300 card-hover"
@@ -67,7 +78,7 @@ export default function Home() {
                 </div>
                 <p className="text-[11px] text-zinc-400 mb-3 font-mono">{item.venue}</p>
                 <h3 className="text-sm font-medium text-zinc-900 leading-snug line-clamp-2">
-                  {item.paperTitle}
+                  {item.title}
                 </h3>
                 <p className="mt-3 text-xs text-zinc-500 line-clamp-1">
                   {item.authors}
