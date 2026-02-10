@@ -6,8 +6,9 @@
         {
           "authors": "C Zhang, B Yu, Y Wang, M Yuan, W Wang, S Je, P An",
           "title": "ASafePlace: User-Led Personalization of VR Relaxation via an Art Therapy Activity",
-          "venue": "arXiv preprint arXiv:2602.01579, 2026",
-          "link": ""
+          "venue": "CHI Conference on Human Factors in Computing Systems (CHI '26), 2026",
+          "link": "https://arxiv.org/pdf/2602.01579",
+          "pdf": "/papers/asafeplace-user-led-personalization-of-vr-relaxation-via-an-art-therapy-activity.pdf"
         },
         {
           "authors": "X Li, Y Han, D Liu, P An, S Niu",

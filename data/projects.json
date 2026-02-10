@@ -1,75 +1,74 @@
 {
   "projects": [
     {
-      "id": "dandelions",
-      "title": "Classroom Dandelions",
-      "date": "2022-08-01",
-      "categories": ["education", "internet-of-things"],
-      "tags": ["proxemics", "visualization", "classroom"],
-      "authors": "Gloria Fernandez-Nieto, Pengcheng An, Jian Zhao, Simon Buckingham Shum, Roberto Martinez-Maldonado",
+      "id": "asafeplace",
+      "title": "ASafePlace",
+      "date": "2026-02-01",
+      "categories": ["emotional-design", "vr", "art-therapy"],
+      "tags": ["biofeedback", "personalization", "relaxation"],
+      "authors": "C Zhang, B Yu, Y Wang, M Yuan, W Wang, S Je, P An",
       "description": {
-        "short": "Despite the digital revolution, physical space remains the site for teaching and learning embodied knowledge and skills. Both teachers and students must develop spatial competencies to effectively use classroom spaces.",
-        "full": "Despite the digital revolution, physical space remains the site for teaching and learning embodied knowledge and skills. Both teachers and students must develop spatial competencies to effectively use classroom spaces, enabling fluid verbal and non-verbal interaction. While video permits rich activity capture, it provides no support for quickly seeing activity patterns that can assist learning. In contrast, position tracking systems permit the automated modelling of spatial behaviour, opening new possibilities for feedback."
+        "short": "AI-powered VR biofeedback system using art therapy-inspired Safe Place technique to create personalized relaxation environments.",
+        "full": "ASafePlace utilizes an AI-powered, art-therapy-inspired exercise called The Safe Place to create personalized VR biofeedback experiences. Users sketch a personal sanctuary from memory, which is transformed into a customized 360° virtual environment with personalized audio guidance infused with their life experiences. A study with 52 participants showed this approach effectively reduced anxiety, increased presence, and produced strong improvements in physiological relaxation measured by heart rate variability and respiration rate."
       },
-      "image": "/projects/banner_dandelions.png",
-      "link": "https://doi.org/10.1145/3491102.3517736"
+      "image": "/projects/banner_asafeplace.png",
+      "link": "https://arxiv.org/pdf/2602.01579"
     },
     {
-      "id": "vibemoji",
-      "title": "VibEmoji",
-      "date": "2022-08-01",
-      "categories": ["emotional-design", "social-interaction"],
-      "tags": ["emotion", "messaging", "mobile-communication"],
-      "authors": "Pengcheng An*, Ziqi Zhou*, Qing Liu*, Yifei Yin, Linghao Du, Da-Yuan Huang, and Jian Zhao✉",
+      "id": "projecta",
+      "title": "ProjecTA",
+      "date": "2026-01-20",
+      "categories": ["education", "social-robot"],
+      "tags": ["projection", "teaching-assistant", "guided-tour"],
+      "authors": "H Zhou, Y Zhang, Z Zhang, W Zhang, C Wang, P An",
       "description": {
-        "short": "Emoticons are indispensable in online communications. With users' growing needs for more customized and expressive emoticons, recent messaging applications begin to support multi-modal emoticons.",
-        "full": "Emoticons are indispensable in online communications. With users' growing needs for more customized and expressive emoticons, recent messaging applications begin to support (limited) multi-modal emoticons, enhancing emoticons with animations or vibrotactile feedback. However, little empirical knowledge has been accumulated concerning how people create, share and experience multi-modal emoticons in everyday communication, and how to better support them through design."
+        "short": "A semi-humanoid robotic teaching assistant with in-situ projection capabilities for guided tours in educational spaces.",
+        "full": "ProjecTA is a semi-humanoid robotic teaching assistant that combines physical presence with projection-based augmentation to deliver engaging guided tours in educational spaces (e.g., makerspaces, museums). The robot uses in-situ projection to highlight artifacts and display contextual information, creating an interactive and immersive learning experience that bridges physical and digital content."
       },
-      "image": "/projects/banner_vibemoji.png",
-      "link": "https://doi.org/10.1145/3491102.3501940"
+      "image": "/projects/banner_projecta.png",
+      "link": "https://arxiv.org/pdf/2601.11328"
     },
     {
-      "id": "dementia-care-robot",
-      "title": "Dementia Care Robot",
-      "date": "2020-08-01",
-      "categories": ["social-robot", "inclusion"],
-      "tags": ["dementia", "elderly", "human-robot-interaction"],
-      "authors": "Di Zhou, Emilia I Barakova, Pengcheng An, Matthias Rauterberg",
+      "id": "genpod",
+      "title": "GenPod",
+      "date": "2025-02-15",
+      "categories": ["ai", "emotional-design"],
+      "tags": ["podcast", "news-framing", "emotion-regulation"],
+      "authors": "W Ku, Y Liu, W Zhang, P An",
       "description": {
-        "short": "Almost all older people with dementia have progressive communication difficulties, which lead to increased social isolation and negative emotions.",
-        "full": "Almost all older people with dementia have progressive communication difficulties, which lead to increased social isolation and negative emotions. Thus, providing communication assistance for them is essential. This paper explores the feasibility of using social robots to assist older people with dementia in their face-to-face communication with others. We designed the behavior of a humanoid Pepper robot and made a Wizard of Oz prototype that the robot can serve as a personal memory assistant."
+        "short": "AI-generated podcasts with constructive news framing to effectively reduce negative emotions.",
+        "full": "GenPod explores how AI-generated podcasts can use constructive news framing techniques to reduce negative emotional responses to news content. By automatically reframing news stories with solution-focused perspectives while maintaining journalistic integrity, the system helps listeners process challenging information in healthier ways, promoting emotional wellbeing in news consumption."
       },
-      "image": "/projects/banner_robot.png",
-      "link": "https://doi.org/10.1109/THMS.2021.3112957"
+      "image": "/projects/banner_genpod.png",
+      "link": "https://dl.acm.org/doi/pdf/10.1145/3714394.3754374"
     },
     {
-      "id": "nft",
-      "title": "Neurofeedback Games for ASD Children",
-      "date": "2020-08-01",
-      "categories": ["education", "children"],
-      "tags": ["autism", "neurofeedback", "serious-game"],
-      "authors": "Zhaoyi Yang, Pengcheng An, Jinchen Yang, Samuel Strojny, Zihui Zhang, Dongsheng Sun, and Jian Zhao",
+      "id": "novobo",
+      "title": "Novobo",
+      "date": "2025-01-25",
+      "categories": ["education", "ai"],
+      "tags": ["teacher-training", "gesture", "peer-learning"],
+      "authors": "J Jiang, K Huang, R Martinez-Maldonado, H Zeng, D Gong, P An",
       "description": {
-        "short": "Neurofeedback games are an effective and playful approach to enhance certain social and attentional capabilities in children with autism.",
-        "full": "Neurofeedback games are an effective and playful approach to enhance certain social and attentional capabilities in children with autism, which are promising to become widely accessible along with the commercialization of mobile EEG modules. However, little industry-based experiences are shared, regarding how to better design neurofeedback games to fine-tune their playability and user experiences for autistic children."
+        "short": "Supporting teachers' peer learning of instructional gestures by teaching a mentee AI-agent together.",
+        "full": "Novobo facilitates peer learning among teachers by having them collaboratively teach instructional gestures to a mentee AI agent. This learning-by-teaching approach helps teachers reflect on and improve their non-verbal communication skills in the classroom, while the AI agent provides a safe, judgment-free practice environment that encourages experimentation and peer discussion."
       },
-      "image": "/projects/banner_NFT.png",
-      "link": "https://doi.org/10.1145/3447527.3477522"
+      "image": "/projects/banner_novobo.png",
+      "link": "https://arxiv.org/pdf/2505.17557"
     },
     {
-      "id": "classbeacons",
-      "title": "ClassBeacons",
-      "date": "2019-08-01",
-      "categories": ["education", "peripheral-interaction", "internet-of-things"],
-      "tags": ["ambient-display", "classroom", "reflection"],
-      "authors": "Pengcheng An, Saskia Bakker, Sara Ordanovski, Berry Eggen et al.",
+      "id": "visiobo",
+      "title": "Visiobo",
+      "date": "2025-01-20",
+      "categories": ["education", "peripheral-interaction"],
+      "tags": ["projection", "poster", "multi-viewer"],
+      "authors": "K Huang, J Jiang, H Lu, H Zhou, P An",
       "description": {
-        "short": "Reflecting on their performance during classroom-teaching is an important competence for teachers. Such reflection-in-action (RiA) enables them to optimize teaching on the spot.",
-        "full": "Reflecting on their performance during classroom-teaching is an important competence for teachers. Such reflection-in-action (RiA) enables them to optimize teaching on the spot. But RiA is also challenging, demanding extra thinking in teachers' already intensive routines. Little is known on how HCI systems can facilitate teachers' RiA during classroom-teaching. To fill in this gap, we evaluate ClassBeacons, a system that uses spatially distributed lamps to depict teachers' ongoing performance on how they have divided their time and attention over students in the classroom."
+        "short": "Assisting poster reading for multiple viewers with a projector-enhanced physical agent.",
+        "full": "Visiobo uses a projector-enhanced physical agent to assist multiple viewers in reading and understanding academic posters simultaneously. By tracking viewer positions and interests, the system projects dynamic visual cues and highlights that guide attention, explain concepts, and coordinate group exploration, making poster sessions more accessible and engaging for diverse audiences."
       },
-      "image": "/projects/banner_classbeacons.png",
-      "link": "https://doi.org/10.1145/3290605.3300321"
+      "image": "/projects/banner_visiobo.png",
+      "link": "https://dl.acm.org/doi/pdf/10.1145/3706599.3720146"
     }
   ]
 }
-
