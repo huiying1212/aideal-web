@@ -67,32 +67,44 @@
   "news": [
     {
       "type": "paper",
-      "title": "Paper accepted!",
-      "venue": "INTERNATIONAL JOURNAL OF DESIGN (SCI, SSCI, A&HCI indexed)",
-      "paperTitle": "Unremarkable Augmentation in Busy Practitioners' Surroundings: Exploring Peripheral Interaction with Teachers and Nurses",
-      "authors": "P. An, S. Bakker, M. Cabral Guerra, J. van Bentum, B. Eggen"
+      "title": "Paper accepted and best paper awarded!",
+      "venue": "ACM CHI 2026",
+      "paperTitle": "Novobo: Supporting Teachers' Peer Learning of Instructional Gestures by Teaching a Mentee AI-Agent Together",
+      "authors": "Jiaqi Jiang, Kexin Huang, Huan Zeng, Duo Gong, Roberto Martinez-Maldonado, Pengcheng An"
     },
     {
       "type": "paper",
       "title": "Paper accepted!",
-      "venue": "ACM UbiComp 2023 / IMWUT (CCF-A)",
-      "paperTitle": "Eggly: Designing Mobile Augmented Reality Neurofeedback Training Games for Children with Autism Spectrum Disorder",
-      "authors": "Yue Lyu, Pengcheng An, Yage Xiao, Zibo Zhang, Huan Zhang, Keiko Katsuragawa, Jian Zhao"
+      "venue": "ACM CHI 2026",
+      "paperTitle": "DOLLama: Fostering Family Anti-Bullying Learning through AI-Augmented, Toy-Mediated Educational Drama",
+      "authors": "Di Liu, Zhenhao Zhang, Zhuoyi Zhang, Yufei Hu, Keming Jiao, Xueliang Li, Pengcheng An"
     },
     {
       "type": "paper",
       "title": "Paper accepted!",
-      "venue": "ACM DIS 2023 (CCF-C)",
-      "paperTitle": "Co-constructing Stories Based on Users Lived Experiences to Investigate Visualization Design for Collective Stress Management",
-      "authors": "Mengru Xue, Pengcheng An, Rong-Hao Liang, Zengrong Guo, Jun Hu, Preben Hansen, Loe Feijs"
+      "venue": "ACM CHI 2026",
+      "paperTitle": "ProjecTA: A Semi-Humanoid Robotic Teaching Assistant with In-Situ Projection for Guided Tours",
+      "authors": "Hanqing Zhou, Yichuan Zhang, Zihan Zhang, Wei Zhang, Chao Wang, Pengcheng An"
+    },
+    {
+      "type": "paper",
+      "title": "Paper accepted!",
+      "venue": "ACM CHI 2026",
+      "paperTitle": "ASafePlace: User-Led Personalization of VR Relaxation via an Art Therapy Activity",
+      "authors": "Chuyang Zhang, Bin Yu, Yuchao Wang, Mansi Yuan, Wanqi Wang, Seungwoo Je, Pengcheng An"
     }
   ],
   "navigation": [
     { "name": { "zh": "主页", "en": "Home" }, "path": "/" },
     { "name": { "zh": "研究团队", "en": "Team" }, "path": "/team" },
     { "name": { "zh": "研究项目", "en": "Projects" }, "path": "/projects" },
-    { "name": { "zh": "学术发表", "en": "Publications" }, "path": "/publications" },
-    { "name": { "zh": "加入我们", "en": "Opportunities" }, "path": "/opportunities" }
+    {
+      "name": { "zh": "学术发表", "en": "Publications" },
+      "path": "/publications"
+    },
+    {
+      "name": { "zh": "加入我们", "en": "Opportunities" },
+      "path": "/opportunities"
+    }
   ]
 }
-
