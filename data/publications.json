@@ -8,20 +8,23 @@
           "title": "ASafePlace: User-Led Personalization of VR Relaxation via an Art Therapy Activity",
           "venue": "CHI Conference on Human Factors in Computing Systems (CHI '26), 2026",
           "link": "https://arxiv.org/pdf/2602.01579",
-          "pdf": "/papers/asafeplace-user-led-personalization-of-vr-relaxation-via-an-art-therapy-activity.pdf"
+          "pdf": "/papers/asafeplace-user-led-personalization-of-vr-relaxation-via-an-art-therapy-activity.pdf",
+          "image": "/projects/banner_asafeplace.png"
         },
         {
           "authors": "X Li, Y Han, D Liu, P An, S Niu",
           "title": "When Generative AI Is Intimate, Sexy, and Violent: Examining Not-Safe-For-Work (NSFW) Chatbots on FlowGPT",
-          "venue": "arXiv preprint arXiv:2601.14324, 2026",
-          "link": "https://arxiv.org/pdf/2601.14324"
+          "venue": "CHI Conference on Human Factors in Computing Systems (CHI '26), 2026",
+          "link": "https://arxiv.org/pdf/2601.14324",
+          "image": "/projects/banner_nsfw.jpg"
         },
         {
           "authors": "H Zhou, Y Zhang, Z Zhang, W Zhang, C Wang, P An",
           "title": "ProjecTA: A Semi-Humanoid Robotic Teaching Assistant with In-Situ Projection for Guided Tours",
-          "venue": "arXiv preprint arXiv:2601.11328, 2026",
+          "venue": "CHI Conference on Human Factors in Computing Systems (CHI '26), 2026",
           "link": "https://arxiv.org/pdf/2601.11328",
-          "pdf": "/papers/projecta-a-semi-humanoid-robotic-teaching-assistant-with-in-situ-projection-for-.pdf"
+          "pdf": "/papers/projecta-a-semi-humanoid-robotic-teaching-assistant-with-in-situ-projection-for-.pdf",
+          "image": "/projects/banner_projecta.png"
         }
       ]
     },
