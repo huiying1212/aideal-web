@@ -93,13 +93,37 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 pt-8 border-t border-zinc-100 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-zinc-400">
-            © {new Date().getFullYear()} Pengcheng An
-          </p>
-          <p className="text-xs text-zinc-400">粤ICP备2024351978号-1</p>
-          {/* <p className="text-xs text-zinc-400">
-            {t("南方科技大学 · 创新创意设计学院", "SUSTech · School of Design")}
-          </p> */}
+          <div>
+            <p className="text-xs text-zinc-400">
+              © {new Date().getFullYear()} Pengcheng An
+            </p>
+            <p className="text-xs text-zinc-400">
+              {t(
+                "南方科技大学 · 创新创意设计学院",
+                "SUSTech · School of Design",
+              )}
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-1">
+            <p className="text-xs text-zinc-400 flex items-center gap-1">
+              <img
+                src="/beian/icp.jpeg"
+                alt="ICP icon"
+                className="inline-block h-4 w-4"
+              />
+              <span>粤ICP备2024351978号-1</span>
+            </p>
+
+            <p className="text-xs text-zinc-400 flex items-center gap-1">
+              <img
+                src="/beian/gongan.png"
+                alt="公安备案图标"
+                className="inline-block h-4 w-4"
+              />
+              <span>粤公网安备44030002012359号</span>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
